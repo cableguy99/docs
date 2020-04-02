@@ -4,23 +4,21 @@
 
 ## Introduction
 
-With a connected wallet, it's not time to try voting for some masternodes.
+With a connected wallet, it's now time to try voting for some masternodes.
 
 ## Get some TAO
 
-!!! info
-    Testnet TAO are only used for experimenting with the testnet.
-    They have no value in the main blockchain and not market value.
+The Tao Testnet is only to be used for experimentation and development. Coins on the testnet have no value on the production chain and have no market value of their own.
 
 ### Using TaoWallet
 
-TaoWallet provides a function named `Earn TAO to test`. It allows you to get 15 TAO on the Testnet.
+TaoWallet provides a function called `Earn TAO to test`. It allows you to get 15 TAO on the Testnet.
 Just click on it and you will see your balance go up.
 
 !!! note
     You can use this function only once. You then have to use the faucet for any extra Testnet TAO needed.
 
-### Using any wallets
+### Other options of obtaining some Tao to use on the testnet
 
 We also have a service called "Faucet" which allows you to get 15 TAO at a time.
 
@@ -28,13 +26,13 @@ Access the faucet site at: [faucet.testnet.tao.network](https://faucet.testnet.t
 
 Enter your wallet address in the field and tick the `I'm not a robot` box.
 
-Click `REQUEST 15 TAO` and Wait for some seconds for the transaction to be confirmed.
+Click `REQUEST 15 TAO` and wait for a few seconds for the transaction to be confirmed.
 
 You will receive a success confirmation message and the amount of TAO in your wallet should be updated. You can check your TAO balance by either looking at your wallet or using [TaoScan](https://scan.testnet.tao.network).
 
 ## How To Vote
 
-Now you have some TAO. You can access our governance dApp, [Shifu](https://master.testnet.tao.network/), to start voting for masternodes.
+Now that you have some TAO, you can access our governance dApp, [Shifu](https://master.testnet.tao.network/), to start voting for masternodes.
 
 
 Shifu natively supports Metamask. You can also access your account page (the vertical three dots on the top right) to fill in your wallet Private Key or MNEMONIC (see image below).
@@ -62,8 +60,8 @@ After unvoting, your TAO is still locked in the smart contract for 48 hours befo
 
 ## How to Withdraw
 
-For withdrawals after unvoting, you need to wait until your TAO is unlocked from the smart contract. Then you can click the `withdraw` button in your account page (the vertical three dots on the top right) and choose which withdrawal you want to receive back your TAO.
+For withdrawals after unvoting, you need to wait until your TAO is unlocked from the smart contract. Then you can click the `withdraw` button in your account page (the vertical three dots on the top right) and choose which withdrawal you want to send back your TAO.
 
 Note that you might see multiple withdrawals on your account page if you made multiple unvotes previously.
 
-If you withdraw before the unlock period expires, an error will be raised.
+If you withdraw before the unlock period expires, an error will be displayed.
