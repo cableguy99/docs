@@ -9,9 +9,7 @@ Tao is a novel solution to the data sharing, integration and monetization proble
 Tao relies on a system of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus that can support low transaction fees and 2-second transaction confirmation times.
 Security, stability and chain finality are guaranteed via novel techniques such as the Random Generals Gambit and decentralized rewards for users who support the most reliable block producers via smart-contracts.
 
-Tao supports all EVM-compatible smart-contracts, protocols and atomic cross-chain token transfers. New scaling techniques such as sharding, EVM parallelisation and  private-chain generation. 
-
-Hardware integration will be continuously researched and incorporated into Tao's masternode architecture (named "Shifu"). It will be an ideal scalable smart-contract public blockchain for decentralized apps, token issuances and token integrations for every stakeholder in the music economy.
+Tao supports all EVM-compatible smart-contracts, protocols and atomic cross-chain token transfers. New scaling techniques such as sharding, EVM parallelisation, private-chain generation and hardware integration will be continuously researched and incorporated into Tao's masternode architecture (named "Shifu"). It will be an ideal scalable smart-contract public blockchain for decentralized apps, token issuances and token integrations for every stakeholder in the music economy.
 
 	
 #### What problem is Tao aiming to solve?
