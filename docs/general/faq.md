@@ -34,7 +34,7 @@ Tao supports low fee and 2-second transaction confirmation times. Tao can curren
 Tao relies on a system of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
 Security, stability and chain finality are guaranteed via novel techniques such as Random Generals and staking via smart-contracts.
 
-#### Can you tell more about Delegated Proof of Stake (DPOS)? What is it?
+#### Can you tell me more about Delegated Proof of Stake (DPOS)? What is it?
 At the heart of Tao, the Delegated Proof-of-Stake (DPOS) consensus mechanism enables Tao as an EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be effectively run with almost instant transaction confirmations.
 
 DPOS features it’s Masternode architecture in which token holders deposit 100,000 TAO to become a masternode candidate and receive votes from other token holders. The most voted masternode candidates are selected as masternodes for block creation within a period, called an epoch. Each masternode takes it's block creation in a round-robin manner every 2-seconds and follows the double validation technique for security reinforcement. A block is finalised if it is signed off by 3/4 of the masternodes. At the end of each epoch, the masternodes that have signed finalised blocks are rewarded. Stakers who voted for those masternodes will also be rewarded.
