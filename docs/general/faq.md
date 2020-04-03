@@ -199,7 +199,7 @@ Developers who have projects which intend to serve the music industry can find a
 
 ### TAO - Economics
 
-#### What is TAO? Can you describe the functions and purposes of TAO?
+#### What is TAO? Can you describe the functions and purpose of TAO?
 TAO is the native cryptocurrency of Tao and will be the reserve cryptocurrency for all third-party apps running on Tao.
 Being the protocol token for the Tao infrastructure, TAO will be needed by all parties utilising Tao to build apps or issue and integrate cryptographic tokens into their apps.
 
