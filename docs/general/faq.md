@@ -736,7 +736,7 @@ Tao Wallet is the official mobile wallet for Tao, aiming to store the TAO native
 Users can download TaoWallet at the [App Store](https://itunes.apple.com/us/app/tao-wallet/id1436476145?mt=8) and [Play Store](https://play.google.com/store/apps/details?id=com.tao.wallet).
 
 #### What tokens/coins does TaoWallet support?
-The current TaoWallet supports the native TAO coin on the Tao Mainnet.
+The current TaoWallet supports the native TAO coin on the Tao blockchain.
 TaoWallet will support all tokens issued on the Tao blockchain in the future.
 
 #### How can I create a TAO wallet? What are the options to create a TAO wallet?
