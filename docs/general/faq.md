@@ -666,7 +666,7 @@ Note that you might see multiple withdrawals on your account page if you made mu
 #### What is TaoScan?
 [TaoScan](https://scan.tao.network/) is our block explorer. It is pretty similar to EtherScan if you are already familiar with it.
 
-TaoScan provides a user friendly, details and perfection-oriented user interface for the Tao block explorer.
+TaoScan provides a user friendly, details and perfection-oriented user interface for the Tao blockchain.
 From a user perspective, TaoScan brings Tao’s transparency to users, because all block, transaction, finality, smart contracts, dApp and token information are read from Tao and shown to users.
 Furthermore, TaoScan also offers technical visualisations and does useful statistics about Tao's performance, token holders and other functionaly.
 
