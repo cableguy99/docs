@@ -216,7 +216,7 @@ TAO is not `mineable` but `mintable` by masternodes.
 Masternodes are responsible for creating, verifying and finalizing the blocks created within a period, called an epoch.
 Masternodes and Stakers will receive block rewards.
 
-#### What is TAO circulating supply and total supply?
+#### What is TAO's circulating supply and total supply?
 The initial circulating supply at the Tao 1.0 genesis block was 33,000,000.  Since launch, the network has generated roughly another 1,000,000 tokens via consensus. Another 21,000,000 tokens were minted with the migration to Tao 2.0 and sold on the open market to raise intial funds, bringing the circulating total to 55,000,000, however the current circulating supply is increasing every epoch.
 
 After 8 years, TAO total supply is fixed at 100,000,000 TAO.
