@@ -15,7 +15,7 @@ Tao supports all EVM-compatible smart-contracts, protocols and atomic cross-chai
 #### What problem is Tao aiming to solve?
 The problems that Tao aims to solve can be summarized as follows:
 
-- Network congestion (low transaction time)
+- Network congestion (low transaction times)
 - High transaction fees 
 - Lack of focus on music economy pain points
 - Lack of focus on music economy data requirements
