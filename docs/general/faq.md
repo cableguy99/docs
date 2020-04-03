@@ -541,7 +541,7 @@ Yes.
 Yes.
 Token holders can stake TAO and receive rewards.
 
-To stake TAO you need to vote for masternode candidates by sending TAO to each candidate's specific voting address using the official governance d-App: Shifu.`
+To stake TAO you need to vote for masternode candidates by sending TAO to each candidate's specific voting address using the official governance d-App: Shifu.
 The top 150 most voted candidates will become masternodes.
 Token holders can also un-vote candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks (approx. 48 hours) after the un-voting.
 
