@@ -23,52 +23,45 @@ The problems that Tao aims to solve can be summarized as follows:
 - Lack of focus on music economy data requirements
 - Compromises which encouraged the participation of bad actors
 
-Blockchain technology hasn't been widely adopted by the music economy because of a lack of respect for the needs of artists, fans, and other stakeholders.  Tao addresses these problems directly and enables many decentralized applications, including but not limited to cryptocurrencies, smart-contracts, voting, supply-chain management, decentralized identity, and verification of authenticity.
-In order to reach this goal, the current blockchain infrastructure must at least be able to harmonize with existing music industry stakeholders and technologies such as DAWs, rights management and accounting platforms, financial services, and payments.
-Nevertheless, the reality is disappointing: Bitcoin and Ethereum can only process around 7 and 15 transactions per second and the mistrust of the motives of its creators and participants has made the technology unusable for the music economy.
+Blockchain technology hasn't been widely adopted by the music economy because of a lack of respect for the needs of artists, fans and other stakeholders.  Tao addresses these problems directly and enables many decentralized applications including but not limited to cryptocurrencies, smart-contracts, voting, supply-chain management, decentralized identity and verification of authenticity.
+In order to reach this goal, the current blockchain infrastructure must at least be able to harmonize with existing music industry stakeholders and technologies such as DAWs, rights management and accounting platforms, financial services and payments.
+Nevertheless, the reality is disappointing: Bitcoin and Ethereum can only process around 7 and 15 transactions per second respectively and the mistrust of the motives of its creators and participants has made the technology unusable for the music economy.
+Tao is continuously working and researching several scaling solutions. Regarding on-chain scaling, Sharding and Proof-of-Stake-based consensus are of potential that can significantly improve transaction processing performance while trying to maintain security requirements of the system, however Tao enjoys a "second mover" market advantage and will continue to investigate and research additional scaling methodologies. 
 
-Tao is continuously working and researching several scaling solutions.
-Regarding on-chain scaling, Sharding and Proof-of-Stake-based consensus are of potential that can significantly improve transaction processing performance while trying to maintain security requirements of the system, however Tao enjoys a "second mover" market advantage and will continue to investigate and research additional scaling methodologies. 
-
-Tao supports low fee and 2-second transaction confirmation times.
-Tao can currently process 2'000-5'000 transactions per second (TPS).
+Tao supports low fee and 2-second transaction confirmation times. Tao can currently process 2,000-5,000 transactions per second (TPS).
 
 #### How does Tao work? What is the architecture and consensus used?
 Tao relies on a system of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus that can support low fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
 Security, stability and chain finality are guaranteed via novel techniques such as Random Generals and staking via smart-contracts.
 
 #### Can you tell more about Delegated Proof of Stake (DPOS)? What is it?
-At the heart of Tao, the Delegated Proof-of-Stake (DPOS) consensus mechanism enables Tao as an EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be effectively run with almost instant transaction confirmation.
+At the heart of Tao, the Delegated Proof-of-Stake (DPOS) consensus mechanism enables Tao as an EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be effectively run with almost instant transaction confirmations.
 
-DPOS features its Masternode architecture in which token holders deposit 100,000 TAO to become a masternode candidate and receive votes from other token holders.
-The most voted masternode candidates are selected as masternodes for block creation within a period, called epoch.
-Each masternode takes its block creation in a round-robin manner every 2-second and follows the double validation technique for security reinforcement.
-A block is finalised if it is signed off by 3/4 masternodes.
-At the end of each epoch, the masternodes that have signed finalised blocks are rewarded.
-Stakers who voted for those masternodes will also be rewarded.
+DPOS features it’s Masternode architecture in which token holders deposit 100,000 TAO to become a masternode candidate and receive votes from other token holders. The most voted masternode candidates are selected as masternodes for block creation within a period, called an epoch. Each masternode takes it's block creation in a round-robin manner every 2-seconds and follows the double validation technique for security reinforcement. A block is finalised if it is signed off by 3/4 of the masternodes. At the end of each epoch, the masternodes that have signed finalised blocks are rewarded. Stakers who voted for those masternodes will also be rewarded.
 
 #### What is the Random Generals Gambit?
 The Random Generals Gambit is a novel solution to specfic problems of proof of stake networks.  As the name would suggest, the Random Generals Gambit is an additional layer of randomness which provides reliable state verification on a per-block basis.
 Specifically, when a block is created by a masternode, it must be verified by another randomly selected masternode and only after passing an additional verification by this random masternode is the data added to the blockchain.
-This solves the Byzantine Generals Problem of proof of stake by selecting a "general" at random from those units in the field.  Derived from three years of experience with an operating proof of stake network in the wild, this unique innovation provides for an entirely new level of transaction finality and reliability in proof of stake networks.
+This solves the Byzantine Generals Problem of proof of stake by selecting a "general" at random from those units in the field. Derived from three years of experience with an operating proof of stake network in the wild, this unique innovation provides for an entirely new level of transaction finality and reliability in proof of stake networks.
 
 #### What is an 'epoch'?
-An epoch is a 900-block period of 2-second block time starting from block #1 (900 blocks x 2s/block = around 1800s or ~30 minutes).
+An epoch is a 900-block period of 2-second block times starting from block #1 (900 blocks x 2s/block = around 1800s or ~30 minutes).
 
 #### Which scaling solutions will Tao implement? Will you have sharding?
 Tao solutions are based on on-chain scaling built into an architecture of 150 voted masternodes with our Delegated Proof-of-stake Voting (DPOS) consensus protocol.
-We achieve 2-second block-time and almost instant transaction confirmation.
+We achieve 2-second block-times and almost instant transaction confirmations.
 
-To scale further our infrastructure, we are looking very closely at sharding but will remain open to new advancements as the industry moves forward.
+To further scale our infrastructure, we are looking very closely at sharding but will remain open to new advancements as the industry moves forward.
 
-Besides sharding, we are actively researching scalability solutions like EVM parallelization.  New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into Tao's masternode architecture.
+Besides sharding, we are actively researching scalability solutions like EVM parallelization and private-chain generation.
+Hardware integration will be evaluated before being integrated into Tao's masternode architecture.
 
 #### What is the current TPS? What is your targeted transaction speed and when do you think you can achieve that speed?
 Tao supports low transaction fees (approx. 1/100 of that of Ethereum's) and 2-second transaction confirmation times.
-The mainnet with DPOS Masternodes delivers 2'000 transactions per second (TPS).
+The mainnet with DPOS Masternodes delivers 2,000 transactions per second (TPS).
 
 #### What makes Tao different?
-The unique point of Tao comes from technology, the ecosystem, and the community.  Tao is the only smart contract platform dedicated to serving the needs of the music economy.
+The unique point of Tao comes from the technology, the ecosystem and the community.  Tao is the only smart contract platform dedicated to serving the needs of the music economy.
 
 **Novel technology:** includes
 
@@ -79,9 +72,9 @@ The unique point of Tao comes from technology, the ecosystem, and the community.
 This enables Tao to achieve:
 
 - Cheap transactions: approx. 1/100 of that of Ethereum
-- 2000 TPS to handle a robust d-app and token ecosystem; TPS will be dramatically higher once our sharding solution is enabled (20k-30k TPS)
-- 2 second block time for fast transactions
-- EVM-compatibility allows for interoperability with Ethereum ecosystem.
+- 2,000 TPS to handle a robust d-app and token ecosystem; TPS will be dramatically higher once our sharding solution is enabled (20k-30k TPS)
+- 2 second block times for fast transactions
+- EVM-compatibility allows for interoperability with the Ethereum ecosystem.
 
 **Our unique products**
 
@@ -97,21 +90,18 @@ This enables Tao to achieve:
 #### How does Tao compare with other available blockchain projects?
 Some of our competitors are EOS.IO, Casper FFG, Cardano, Tendermint, Lisk.
 
-The world is a pretty big place, and it is clear in the second decade of the 21st century that one blockchain will not be sufficient to serve the unique needs of every industry.  Blockchain specialization is the trend which we are riding.  startups often kill themselves because they cannot make a desirable product, not because of the competition but due to a lack of traction within their target industry.  Tao solves this problem with a dedicated focus on the music economy.
+The world is a pretty big place, and it is clear in the second decade of the 21st century that one blockchain will not be sufficient to serve the unique needs of every industry.  Blockchain specialization is the trend which we are riding.  Startups often kill themselves because they cannot make a desirable product, not because of the competition but due to a lack of traction within their target industry.  Tao solves this problem with a dedicated focus on the music economy.
 At the moment, besides the core Tao platform, we want to focus on a few quality Dapp use cases that can make a difference.
 Quality before quantity.
 
-Our core blockchain solution like the sharding proposal is of very high quality, and potentially better than multiple high profile attempts at scaling currently.
-The solution is also very unique to Tao's Marsternode design, which will remain our competitive product advantage for a long time.
+Our core blockchain solution like the sharding proposal is of very high quality, and potentially better than multiple high profile attempts at scaling currently. The solution is also very unique to Tao's Marsternode design, which will remain our competitive product advantage for a long time.
 
-There are also several other product solutions in design stage which also highly integrate with Tao's overall design.
-These product innovations is one of the core competencies we have that make Tao very unique compared to other big projects.
-We are doing our best to solve the scalability problem, maximize the TPS and stay strong in our target market.
+There are also several other product solutions in the design stage which also highly integrate with Tao's overall design. These product innovations are some of the core competencies we have that make Tao very unique compared to other major projects. We are doing our best to solve the scalability problem, maximize the TPS and stay strong in our target market.
 
 Even while we focus on the music indsutry, there is still a need for decentralized finance, bonding curve funding, stablecoins, and the entire existing universe of smart-contract enabled applications, but with a music economy focus. 
 
 #### Which blockchain(s) are Tao's main competitors?
-On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO, Tao etc are competitors because app developers/token issuers will generally choose only one blockchain to work on.
+On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO, etc are competitors because app developers and token issuers will generally choose only one blockchain to work on.
 On the other hand, it is too early to focus on competition as it is more important to expand the whole blockchain ecosystem rather than to compete.
 
 Tao has a unique position in which it adds value to the Ethereum ecosystem by addressing scalability and governance issues while keeping the same smart-contracts and general architecture while remaining laser focused on serving a specific market vertical with $26B per year in revenues.
@@ -119,19 +109,19 @@ Tao has a unique position in which it adds value to the Ethereum ecosystem by ad
 #### Tao is EVM-compatible. What does that mean?
 EVM means Ethereum Virtual Machine.
 Tao supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.
-This means that any smart-contract written in Ethereum protocol can be easily ported to Tao.
-Any d-App written in Ethereum or any other EVM-compatible blockchain framework can be seamlessly ported to Tao.
+This means that any smart-contract written in Solidity can be easily ported to Tao.
+Any d-App written in Solidity or any other EVM-compatible blockchain language can be seamlessly ported to Tao.
 
 #### Is Tao a side-chain of Ethereum?
-No.  Tao has its own blockchain since the Tao 1.0 Mainnet was launched August 29th, 2016.
+No.  Tao has run it's own blockchain since the Tao 1.0 Mainnet was launched August 29th, 2016.
 
 #### Is Tao compatible with Ethereum?
-Yes, any smart-contract written in Ethereum protocol can be easily ported to Tao.
+Yes, any smart-contract written in Solidity can be easily ported to Tao.
 This is one strength appealing to some dApp developers and some of our partners.
 
 #### Can developers make hybrid dApps using both Ethereum and Tao in one single dApp?
-Yes, they can make an app, and deploy it to both Ethereum, and Tao.
-It can be done relatively easy since Tao supports EVM, and share a common architecture with Ethereum.
+Yes, they can make an app, and deploy it to both Ethereum and Tao.
+It can be done relatively easily since Tao supports EVM and shares a common architecture with Ethereum.
 
 #### When is Tao mainnet launch?
 Tao 1.0 Mainnet was launched on August 29th, 2016.  Tao is one of the oldest, consistently running, fault-free cryptocurrencies ever created.
@@ -141,26 +131,23 @@ The Tao 2.0 Mainnet, which these documents address, was launched on March 29th, 
 #### What is the difference between TAO and Tao?
 TAO is the native currency of the Tao blockchain platform.
 
-#### How do you solve 'security problems' when using Tao?
-In terms of security of consensus protocol, Tao proposes Random Generals and Randomization to protect the system.
-The details of these techniques can be referred in our [Technical paper](https://tao.network/docs/technical-whitepaper--1.0.pdf).
+#### How is Tao addressing security?
+n terms of the security of the consensus protocol, Tao proposes Random Generals and Randomization to additionally protect the system. The details of these techniques can be referenced in our [Technical paper](https://taoblockchain.github.io/docs/wp-and-research/technical-whitepaper/).
 
-Tao solves some consensus-related security aspects:
+How Tao solves some consensus related security isues:
 
 1. Nothing-at-stake problem: This problem is commonly discussed in PoS-based blockchain consensus and just like 51% attacks in PoW. Tao solves it by using Random Generals and Randomization.
 	The details are shown in our technical paper.
 2. Long-range attacks: Attackers can try to recreate all blocks from a very far position to the current block.
-	Attackers can do that because PoS-based consensus does not require extra-ordinary hashing power to re-write the whole blockchain.
-	Tao addresses by providing finality.
-	Once a block is signed by at least 3/4 masternodes, it is consider irreversible, meaning that any attempt to re-write the blockchain history will be rejected.
+	Attackers can do that because PoS-based consensus does not require extraordinary hashing power to rewrite the whole blockchain.
+	Tao solves this  by providing finality.
+	Once a block is signed by at least 3/4 of masternodes, it is consider irreversible, meaning that any attempt to re-write the blockchain history will be rejected.
 3. Censorship-resistance: Please [refer to this medium article](https://medium.com/taoblockchain/taoblockchain-vs-eos-io-the-battle-of-posv-vs-dpos-or-just-some-coincidence-of-design-philosophy-b5f606a1e5df) for more detailed analysis
 4. DDoS and spamming attacks: Tao's transaction fee is not zero (even it is very low), attackers still require a significant amount of TAO in order to flood the network for only a short time.
 
 #### How does Tao defend against spamming attacks?
-Tao has different measures to defend against spamming attacks.
-
-For instance, increasing transaction fees for smart contract creation is one of them.
-The min is 10 TAO. Otherwise an error of smart contract creation cost is under allowance may show up.
+Tao has incorporated several measures to defend against spamming attacks.
+For instance, increasing the transaction fees for smart contract creation. The minimum is 10 TAO and any amount under that will result in an error that the  smart contract creation cost is too low.
 
 ### Company
 
@@ -168,10 +155,10 @@ The min is 10 TAO. Otherwise an error of smart contract creation cost is under a
 Tao isn't a company.  Tao isn't a foundation.  Tao is a decentralized, autonomous organization.  For legal purposes it is considered an unincorporated association with global membership comprised of those who own the Tao token.
 
 #### Where can I take a look at Tao code? Is there a GitHub repository?
-All the code regarding Tao is free to consult on our [GitHub](https://github.com/taoblockchain/tao2).
+Yes, Tao is an open source blockchain project and all the code is available on our GitHub 
 This includes the code for the Tao blockchain client, governance DApp, block explorer, tools, docker images, documentation, etc.
 
-However, other blockchain related projects like ReplyBlock or drafts, work-in-progress and not yet disclosed projects are usually kept in private repositories.
+However, other blockchain related projects like ReplyBlock or drafts, works-in-progress and not yet disclosed projects are usually kept in private repositories.
 
 We like to publish code publicly when it reaches a certain level of development and/or when we think auditing and contributions are beneficial to the codebase.
 Keeping early projects private is probably more responsible for now due to our scale.
@@ -197,15 +184,15 @@ You can keep in touch with our latest news here:
 
 ### Ecosystem
 
-#### What incentives have partners and dApp developers to build on Tao?
+#### What incentives are available to partners and dApp developers to build on Tao?
 Tao supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.
-This means that any smart-contract written in Ethereum protocol can be easily ported to Tao.
+This means that any smart-contract written in Solidity can be easily ported to Tao.
 
-Any d-App written in Ethereum can be seamlessly ported to Tao, instantly enjoying all Tao advantages: almost zero-transaction fee; 2-second confirmation time; 2'000 TPS and soon 20K-30K TPS once sharding is enabled.
+Any d-App written for Ethereum can be seamlessly ported to Tao, instantly enjoying all of Tao's advantages: almost zero-transaction fees; 2-second confirmation times; 2,000 TPS and soon 20K-30K TPS once sharding is enabled.
 
 D-app developers also have dedicated technical support from Tao developers.
 
-Besides the technical aspects, our partners will also benefit from the Tao community support and fundraising opportunities, thanks to Tao very good relationships with well-known investors.
+Besides the technical aspects, our partners will also benefit from Tao community support and fundraising opportunities thanks to Tao’s relationships with well-known investors.
 
 #### Why should developers build dApps on Tao?
 Developers who have projects which intend to serve the music industry can find a home with an entire community dedicated to their success.  With solid roots within the music economy building on Tao will let you rise above the noise of other networks and get your project noticed by the people you want to notice it.
@@ -228,7 +215,7 @@ You can check our [technical whitepaper](https://docs.tao.network/wp-and-researc
 
 #### Can I mine TAO?
 TAO is not `mineable` but `mintable` by masternodes.
-Masternodes are responsible for creating, verifying and finalizing the blocks created within a period, called epoch.
+Masternodes are responsible for creating, verifying and finalizing the blocks created within a period, called an epoch.
 Masternodes and Stakers will receive block rewards.
 
 #### What is TAO circulating supply and total supply?
@@ -237,15 +224,15 @@ The initial circulating supply at the Tao 1.0 genesis block was 33,000,000.  Sin
 After 8 years, TAO total supply is fixed at 100,000,000 TAO.
 
 #### How is TAO distributed?
-The token allocation is splitted as follows:
+The token allocation is split as follows:
 
-- 55 millions TAO in circulation post-migration;
-- 12 millions TAO are reserved for the team;
-- 16 millions TAO are reserved for strategic partners and an ecosystem building fund;
-- 17 millions TAO are reserved as block rewards for the next 8 years
+- 55 million TAO in circulation post-migration;
+- 12 million TAO are reserved for the team;
+- 16 million TAO are reserved for strategic partners and an ecosystem building fund;
+- 17 million TAO are reserved as block rewards for the next 8 years
 
 #### How are block rewards distributed?
-17 millions TAO are reserved as block rewards for the next 8 years.
+17 million TAO are reserved as block rewards for the next 8 years.
 
 - 1st and 2nd year: 4 million TAO annually
 - 3rd, 4th and 5th year: 2 million TAO annually
@@ -258,9 +245,7 @@ At that time, we are expecting that block rewards will come from the exchange fe
 But the Board of Governors shall evaluate the economic situation at the time block rewards expire and may decide to increase the total supply by 0.5-1 million TAO per year (which will be used as block rewards) (~small inflation, 0.5%-1% annually).
 
 #### How often are block rewards paid out?
-Block rewards will be earnt every epoch, which lasts for 900 of two-second-block time (~30 minutes).
-Those users which have delegates assigned to masternodes which have produced blocks will be also rewarded.
-
+Block rewards will be earned every epoch, which consists of 900 two-second-blocks (~30 minutes). Those users which have delegates assigned to masternodes which have produced blocks will also be rewarded.
 #### If Tao has zero fees, how can Masternodes get rewards?
 The block rewards will be emitted from a reserved fund with 17 million TAO for the first 8 years.
 The block rewards are as follows:
@@ -278,13 +263,12 @@ Also, the Board of Governors can decide to increase the total supply by 0.5-1 mi
 The price is set by free market value, which at the time of this writting was ~$0.025
 
 #### When will TAO be listed on new exchanges?
-We do not discuss about exchange related questions due to the regulation.
-We will announce every exchange news on our official channels on due time.
+We do not discuss exchange listings due to regulation rules. We will announce exchange news on our official channels.
 
 Tao is currently traded on Alt.Market and QTrade.io
 
 #### Is TAO an ERC-20 token?
-No.  Since Mainnet, TAO has become the native coin of the Tao blockchain.
+No. TAO is the native coin of the Tao blockchain.
 
 #### What is a TRC1 token?
 A TRC1 token is a token which can be issued on the Tao blockchain.
@@ -299,7 +283,7 @@ Please, read more details here: [https://docs.tao.network/get-started/wallet/](h
 	
 #### How to connect Metamask / MyEtherWallet with Tao mainnet?
 
-The followings are information used for configuring Metamask to connect to Tao Mainnet.
+Use the following settings to connect Metamask to the Tao Mainnet.
 
 - RPC endpoint: `https://rpc.tao.network`
 - Chain ID: `88`
@@ -314,13 +298,12 @@ You can find the info about our Mainnet or Testnet on our [Networks](https://doc
 Also, you can find out more detailed information about how to use different wallet types to connect to Tao Mainnet on [Connect your wallet](https://docs.tao.network/get-started/wallet/) 
 	
 #### Where can I buy TAO? (exchanges)"
-You can trade TAO on various exchanges.
-Take a look in the "Exchanges" section [on this page](https://tao.network/about-us/) of our main website.
+You can currently purchase TAO on Alt.Market and QTrade.io.
 
 ### Masternodes	
 
 #### Does Tao have Masternodes? How do they work?
-Yes, Tao has a maximum of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus for low transaction fee, and instant transaction confirmation.
+Yes, Tao has a maximum of 150 Masternodes using Delegated Proof of Stake (DPOS) consensus with low transaction fees and instant transaction confirmations. 
 Masternodes create, verify and validate new blocks in Tao’s platform.
 
 - **Masternode Candidates:** Any account can deposit 50,000 TAO using [Shifu](https://shifu.tao.network/) to become a masternode candidate.
