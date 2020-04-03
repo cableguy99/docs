@@ -5,7 +5,7 @@
 ### Tao
 
 #### What is Tao?
-Tao is a novel solution to the data sharing, integration, and monetization problems of the music economy by implementing a custom smart contract protocol designed specifically for the music industry, by the music industry.
+Tao is a novel solution to the data sharing, integration and monetization problems of the music economy by implementing a custom smart contract protocol designed specifically for the music industry, by the music industry.
 Tao relies on a system of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus that can support low transaction fees and 2-second transaction confirmation times.
 Security, stability and chain finality are guaranteed via novel techniques such as the Random Generals Gambit and decentralized rewards for users who support the most reliable block producers via smart-contracts.
 
