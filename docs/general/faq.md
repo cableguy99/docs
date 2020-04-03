@@ -134,7 +134,7 @@ n terms of the security of the consensus protocol, Tao proposes Random Generals 
 
 How Tao solves some consensus related security isues:
 
-1. Nothing-at-stake problem: This problem is commonly discussed in PoS-based blockchain consensus and just like 51% attacks in PoW. Tao solves it by using Random Generals and Randomization.
+1. Nothing-at-stake problem: This problem is commonly discussed in PoS-based blockchain consensus just like 51% attacks in PoW. Tao solves it by using Random Generals and Randomization.
 	The details are shown in our technical paper.
 2. Long-range attacks: Attackers can try to recreate all blocks from a very far position to the current block.
 	Attackers can do that because PoS-based consensus does not require extraordinary hashing power to rewrite the whole blockchain.
