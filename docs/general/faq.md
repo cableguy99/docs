@@ -311,7 +311,7 @@ A Masternode can resign, but the tokens will be locked for the next 30 days afte
 - **Rewards:** The rewards a masternode receives in each epoch is proportional to the number of signatures it signs.
 Masternodes will also receive fees from the Tao DEX, which is planned for development in Q1 2021.
 
-Tao masternodes started signing blocks and receiving block rewards with the Mainnet release in December 14th, 2018.
+Tao masternodes started signing blocks and receiving block rewards with the Mainnet release in April, 2020.
 
 #### What is a masternode in the Tao ecosystem?
 A Tao masternode is a server which uses its computing power to contribute to the network.
