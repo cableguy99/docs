@@ -295,7 +295,7 @@ All you need to do is to choose `Network TAO` in the supported network list in M
 
 You can find the info about our Mainnet or Testnet on our [Networks](https://docs.tao.network/general/networks/) page.
 
-Also, you can find out more detailed information about how to use different wallet types to connect to Tao Mainnet on [Connect your wallet](https://docs.tao.network/get-started/wallet/) 
+Also, you can find out more detailed information about how to use different wallet types to connect to the Tao Mainnet on [Connect your wallet](https://docs.tao.network/get-started/wallet/) 
 	
 #### Where can I buy TAO? (exchanges)"
 You can currently purchase TAO on Alt.Market and QTrade.io.
@@ -304,14 +304,14 @@ You can currently purchase TAO on Alt.Market and QTrade.io.
 
 #### Does Tao have Masternodes? How do they work?
 Yes, Tao has a maximum of 150 Masternodes using Delegated Proof of Stake (DPOS) consensus with low transaction fees and instant transaction confirmations. 
-Masternodes create, verify and validate new blocks in Tao’s platform.
+Masternodes create, verify and validate new blocks on Tao’s blockchain.
 
 - **Masternode Candidates:** Any account can deposit 50,000 TAO using [Shifu](https://shifu.tao.network/) to become a masternode candidate.
-A candidate can resign, but the tokens will be locked for the next 30 days (1'296'000 blocks) after the resignation.
+A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 - **Becoming a Masternode:** A candidate becomes a masternode when he/she belongs to the top 150 most voted candidates in each epoch.
 A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
 - **Rewards:** The rewards a masternode receives in each epoch is proportional to the number of signatures it signs.
-Masternodes will also receive fees from the Tao DEX, which is planned for development in Q1 2019.
+Masternodes will also receive fees from the Tao DEX, which is planned for development in Q1 2021.
 
 Tao masternodes started signing blocks and receiving block rewards with the Mainnet release in December 14th, 2018.
 
@@ -353,7 +353,7 @@ Alternatively you can use Shifu or TaoScan.
 
 #### How much rewards will Masternodes receive?
 Each epoch consists of 900 blocks, which will reward a total of 250 TAO for the first two years.
-This amount of 250 TAO will be divided to all of the Masternodes proportionally to the number of signatures they sign during the epoch.
+This amount of 250 TAO will be divided among all of the Masternodes proportionally to the number of signatures they sign during the epoch.
 
 Example: With only 25 Masternodes and equal performance, every masternode would be rewarded with 10 TAO. With 125 Masternodes, each one would receive 2 TAO per epoch.
 
@@ -368,7 +368,7 @@ The Masternode also gets proportional rewards for his/her 50K TAO initial deposi
 - **Foundation Reward:** The last portion of 10% called Foundation Reward goes to a special account controlled by the Masternode Foundation, which is run by the Tao community initially. 
 
 #### What is the expected ROI for Masternodes and Stakers?
-The rewards for every masternode will be dynamic and depending on multiple factors like: number of masternodes in the network, the efficiency signing blocks, the total number of votes on each masternode.
+The rewards for every masternode will be dynamic and dependant on multiple factors like: number of masternodes in the network, the efficiency signing blocks, the total number of votes on each masternode.
 The most efficient masternodes signing blocks will receive higher rewards.
 
 Please, refer to our [Economics paper](https://docs.tao.network/wp-and-research/economics-paper/) for more details about the masternodes reward.
@@ -397,7 +397,7 @@ Approximate reward achieved per year:
 
 ### Masternode Candidate
 
-#### What is a masternode candidate? What is the difference between masternode candidate and masternode?
+#### What is a masternode candidate? What is the difference between a masternode candidate and a masternode?
 A Masternode Candidate is any node who deposited 50K TAO and is listed on [Shifu](https://shifu.tao.network/).
 
 A Masternode Candidate only becomes a Masternode when he/she is in the top 150 voted masternode candidates in an epoch. Only these elected masternodes will be able to sign blocks and receive block rewards.
@@ -415,7 +415,7 @@ The next step is to be elected as one of the top 150 most voted candidates.
 #### Do I need to use my own computer to run a node?
 No, we recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc). The server must be directly facing the internet (public IP, no NAT) and with 100% uptime.
 
-If you have another production grade environment than cloud providers at your disposal, please tell us more about on our [Gitter](https://gitter.im/taoblockchain).
+If you have a production grade environment other than cloud providers at your disposal, please tell us more about it on our [Gitter](https://gitter.im/taoblockchain).
 
 #### What are the hardware requirements to run a node?
 Processing transactions is mostly CPU bound.
