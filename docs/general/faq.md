@@ -324,49 +324,48 @@ Masternodes are elected using the DPOS consensus via our governance dApp [Shifu]
 
 #### What are the incentives to run a masternode?
 Masternodes contribute to the network and for this work they will receive a significant amount of block rewards, which will likely exceed the cost for running the infrastructure.
-However, masternode owners need to invest in Tao by depositing at least 50'000 TAO, and stake them in the long term.
+However, masternode owners need to invest in Tao by depositing at least 50,000 TAO, and stake them for the long term.
 
-After the initial deposit, if the account does not become a masternode (has less votes than the top 150 most voted candidates), he will not receive rewards.
-Therefore, candidates are incentivised to do as much as they can to signal their capability to support Tao to get into top 150 most voted candidates.
+After the initial deposit, if the account does not become a masternode (has less votes than the top 150 most voted candidates), he/she will not receive rewards.
+Therefore, candidates are incentivised to do as much as they can to signal their capability to support Tao to get into the top 150 most voted candidates.
 
 #### How did you decide on 150 masternodes? Why did you decide to increase this from the initial 99?
-The reason came from both decentralization consideration, and also scalability consideration.
+Two reasons: decentralization and scalability.
 In terms of decentralization, 150 is better than 99.
 The more important consideration is the scalability.
-We also increased the number of masternodes to better suit the sharding solution later.
+We also increased the number of masternodes to better suit our upcoming sharding solution.
 
-Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar%27s_number).
+Also 150 is a [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar%27s_number).
 
 #### Where will the Masternode rewards come from? Will they be from the DEX?
-The block rewards will come from a 17 million TAO reserve for the next 8 years - this was decided since the genesis block.
+The block rewards will come from a 17 million TAO reserve for the next 8 years - this was decided at the genesis block.
 Our [Economics paper](https://docs.tao.network/wp-and-research/economics-paper/) lays out the number in detail.
 
-And then later on, because we plan to have a built-in DEX, the revenues from the DEX will go to the Masternodes as well.
+In the future we plan to have a built-in DEX, with revenues going to Masternodes as well.
 
 #### When are Masternode rewards paid out?
 Masternode operators and stakers will receive rewards every epoch.
-An epoch is a 900-block period of 2-second block time (~30 minutes). 
+An epoch is a 900-block period of 2-second blocks (~30 minutes). 
 
 #### How can I check my rewards?
 You can check your masternode/staking rewards using TaoWallet.
 Alternatively you can use Shifu or TaoScan.
 
 #### How much rewards will Masternodes receive?
-Each epoch consists of 900 blocks, which will reward a total of 250 TAO in the first two years.
+Each epoch consists of 900 blocks, which will reward a total of 250 TAO for the first two years.
 This amount of 250 TAO will be divided to all of the Masternodes proportionally to the number of signatures they sign during the epoch.
 
-Example: With only 25 Masternodes and equal performances, every masternode would be rewarded with 10 TAO. With 125 Masternodes, each one would receive 2 TAO per epoch.
+Example: With only 25 Masternodes and equal performance, every masternode would be rewarded with 10 TAO. With 125 Masternodes, each one would receive 2 TAO per epoch.
 
-Please, refer to our [Economics paper](https://docs.tao.network/wp-and-research/economics-paper/) for more details about the masternodes reward.
+Please refer to our [Economics paper](https://docs.tao.network/wp-and-research/economics-paper/) for more details about the masternodes reward.
 
-#### How much reward from Masternodes will go to the Masternode infrastructure (node owner) and how much is for voters?
-There is a reward sharing ratio among token holders and masternode who has been elected supported by the token holders.
-The reward achieved by each Masternode will be divided into three portions:
+#### How much of the reward from Masternodes will go to the Masternode infrastructure (node owner) and how much to the voters?
+There is a reward sharing ratio among token holders and masternodes who have been elected and supported by the token holders. The reward earned by each Masternode will be divided into three portions:
 
 - **Infrastructure Reward:** The first portion of 40% called Infrastructure Reward goes to the Masternode operator.
 - **Staking Reward:** The second portion of 50% called Staking Reward goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake.
-The Masternode also gets proportional rewards for his 50K TAO initial deposit.
-- **Foundation Reward:** The last portion of 10% called Foundation Reward goes to a special account controlled by the Masternode Foundation, which is run by the Tao company initially. 
+The Masternode also gets proportional rewards for his/her 50K TAO initial deposit.
+- **Foundation Reward:** The last portion of 10% called Foundation Reward goes to a special account controlled by the Masternode Foundation, which is run by the Tao community initially. 
 
 #### What is the expected ROI for Masternodes and Stakers?
 The rewards for every masternode will be dynamic and depending on multiple factors like: number of masternodes in the network, the efficiency signing blocks, the total number of votes on each masternode.
@@ -401,26 +400,24 @@ Approximate reward achieved per year:
 #### What is a masternode candidate? What is the difference between masternode candidate and masternode?
 A Masternode Candidate is any node who deposited 50K TAO and is listed on [Shifu](https://shifu.tao.network/).
 
-One Candidate only becomes a Masternode when he is in the top-150 most-voted masternode candidates in an epoch.
-Only these elected masternodes will be able to sign blocks and receive block rewards.
+A Masternode Candidate only becomes a Masternode when he/she is in the top 150 voted masternode candidates in an epoch. Only these elected masternodes will be able to sign blocks and receive block rewards.
 
 #### How can I become a Masternode?
 The first step to become a masternode, is becoming a masternode candidate.
 To become a Masternode Candidate you need:
 
-- to run Tao software in a machine with certain minimal hardware requirements
-- to deposit 50’000 TAO in a smart-contract via Shifu
+- to run Tao software on a server with certain minimal hardware requirements
+- to deposit 50,000 TAO in a smart-contract via Shifu
 
 The list of Masternode Candidates will be available on the governance DApp, [Shifu](https://shifu.tao.network/).
 The next step is to be elected as one of the top 150 most voted candidates. 
 
 #### Do I need to use my own computer to run a node?
-We recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc).
-The machine must be directly facing internet (public IP, no NAT) and with 100% uptime.
+No, we recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc). The server must be directly facing the internet (public IP, no NAT) and with 100% uptime.
 
-If you have other production grade environment than cloud provider at your disposal, please tell us more about on our [Gitter](https://gitter.im/taoblockchain).
+If you have another production grade environment than cloud providers at your disposal, please tell us more about on our [Gitter](https://gitter.im/taoblockchain).
 
-#### Which are the hardware requirements to run a node?
+#### What are the hardware requirements to run a node?
 Processing transactions is mostly CPU bound.
 Therefore we recommend running CPU optimized servers.
 
@@ -430,19 +427,19 @@ Therefore we recommend running CPU optimized servers.
 - SSD storage
 
 We recommend using popular cloud providers as their reliability and uptime are close to 100%.
-Those servers would be a good starting point:
+These servers would be a good starting point:
 
 - **DigitalOcean:** CPU optimized droplet 32GB/16CPU
 - **Amazon EC2:** C5 instance
 - **Google Cloud Engine:** n1-highcpu-16
 
-Setting up a masternode candidate on a weaker machine might result in poor performances, significantly impacting owner's rewards and the chain performance.
+Setting up a masternode candidate on a weaker machine might result in poor performances, significantly impacting the owner's rewards and the chain performance.
 
-**Note:** If you are running a node in Testnet, 2CPU/8GB of RAM is sufficient.
+**Note:** If you are running a node on the Testnet, 2CPU/8GB of RAM is sufficient.
 
 #### How do Masternode Candidates become Masternodes?
 Once you are a Masternode Candidate, you need the support of Tao community in the form of votes.
-The top 150 most voted candidates every period called epoch (900 blocks of 2-second block-time) will be promoted to Masternode.
+The top 150 most voted candidates every period called an epoch (900 blocks of 2-second block-time) will be promoted to Masternode.
 This list will change dynamically every epoch.
 Only the 150 masternodes elected will be able to sign blocks and will receive rewards in the form of TAO. 
 
@@ -468,7 +465,7 @@ You can create your wallet from wherever you want, the only rule being that you 
 One for your masternode, and one to make the 50K deposit (this account will receive the rewards).
 
 #### What is the 'coinbase address'?
-'Coinbase address' is the public address used to run your node and register it to the system.
+'Coinbase address' is the public address used to run your node and register it on the system.
 
 We recommend using two addresses when running your nodes.
 The public address or 'coinbase address' will only receive transaction fees.
@@ -482,21 +479,20 @@ You will then stake tao into the masternode address via your main TAO wallet.
 You can use the iOS and Android apps.
 Also you can create wallets with Metamask, MyEtherWallet.
 
-You can also use [https://wallet.testnet.tao.network](https://wallet.testnet.tao.network) to create an empty wallet, then use it as coinbase address.
+You can also use [https://wallet.testnet.tao.network](https://wallet.testnet.tao.network) to create an empty wallet, then use it as the coinbase address.
 
-#### I noticed that we need another wallet for masternode with a different mnemonic. Assume we use a hardware wallet, we would need another hardware wallet with different mnemonic?
-It is recommended to use a separate empty account for your masternode as it only receive transactions fees - what we call public or 'coinbase address' on the documentation.
+#### I noticed that we need another wallet for a masternode with a different mnemonic. Assume we use a hardware wallet, would we need another hardware wallet with a different mnemonic?
+It is recommended to use a separate empty account for your masternode as it only receives transactions fees - what we call a public or 'coinbase address' in the documentation.
 
-The block rewards are sent to the account connected to Shifu who make the initial deposit - the 'private' address.
+The block rewards are sent to the account connected to Shifu that makes the initial deposit - the 'private' address.
 
-#### Can I use the same address pair (taomn public address + initial deposit address) for all my nodes? Or I have to transfer tokens to another wallet and start the second node?
+#### Can I use the same address pair (taomn public address + initial deposit address) for all my nodes? Or do I have to transfer tokens to another wallet and start the second node?
 No.
-Must use different public 'coinbase' addresses.
+You must use different public 'coinbase' addresses.
 But you can use the same initial deposit ('private') address, then all rewards will be transferred to only one address.
 
-#### I have finished all steps of setting up node. Why I don't see my node on Shifu?
+#### I have finished all the steps of setting up a node. Why don't I see my node on Shifu?
 You must apply to become a masternode candidate.
-
 #### Do I need to deposit the 50K TAO before or after running 'taomn' in VPS?
 After. Your node must be fully synched before applying.
 
@@ -511,19 +507,19 @@ You can do it on Shifu.
 Go to your masternode page on Shifu, if you are logged in Shifu with the owner account, you can click next to the masternode name to edit infos.
 
 #### My node status is 'Proposed', will it change status with next checkpoint?
-Yes, if you are in top-150 most voted.
+Yes, if you are in the top-150 most voted.
 
 #### Why is a node flagged as 'Slashed'?
-With Slashing v2.0, a masternode who doesn't create any block within an epoch and therefore delays the network by 10 seconds at each of their turns will be penalized (no rewards) for the next five epochs.
+With Slashing v2.0, a masternode that doesn't create any blocks within an epoch and therefore delays the network by 10 seconds at each of their turns will be penalized (no rewards) for the next five epochs.
 
-Note: a slashed Masternode can still sign transactions if he’s online but receive no rewards for doing so.
+Note: a slashed Masternode can still sign transactions if it’s online but will receive no rewards for doing so.
 
 After being slashed for 5 epochs, the Masternode is analysed for re-entry.
-If the slashed Masternode have signed any transaction during the last epoch (meaning that he's up and working again) it will come back to its Masternode status and receive rewards normally.
+If the slashed Masternode have signed any transactions during the last epoch (meaning that it's up and working again) it will gain back it's Masternode status and receive rewards normally.
 Otherwise it will be slashed for a new round of 5 epochs.
 This can happen as long as the node isn't back up or kicked out of the top 150.
 
-Some reasons for being Slashed might be that the masternode does not have the correct Tao software, lack of memory or masternode crashes due to the lack of e-maintenance and operation by the masternode owner.
+Some reasons for being Slashed might be that the masternode does not have the correct Tao software, lack of memory or the masternode crashes due to the lack of maintenance and operation by the masternode owner.
 
 #### How do I update my Masternode to the newest version?
 Run this command: `pip3 install -U taomn && taomn update && taomn start`
@@ -532,9 +528,9 @@ Run this command: `pip3 install -U taomn && taomn update && taomn start`
 As many as you can.
 
 #### How can I resign as Masternode?
-If you no longer want to be a masternode, you can resign on Shifu.
+If you no longer want to run a masternode, you can resign on Shifu.
 Your masternode will stop generating rewards and your funds will be locked for 30 days (1 296 000 blocks).
-After the lockup period you will be able to withdraw your 50'000 TAO deposit.
+After the lockup period you will be able to withdraw your 50,000 TAO deposit.
 
 #### Can I close the node entirely, then start a new one with a totally separate coinbase address without being penalized?
 No.
@@ -547,8 +543,8 @@ Yes.
 Yes.
 Token holders can stake TAO and receive rewards.
 
-To stake TAO you need to vote for masternode candidates by sending TAO to each candidates specific voting-address using the official governance d-App: Shifu.`
-The top-150 most voted candidates will become masternodes.
+To stake TAO you need to vote for masternode candidates by sending TAO to each candidate's specific voting address using the official governance d-App: Shifu.`
+The top 150 most voted candidates will become masternodes.
 Token holders can also un-vote candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks (approx. 48 hours) after the un-voting.
 
 Masternode token deposits, and all tokens used to vote for masternodes will enter the staking program, and earn block rewards in each epoch, plus any fees.
@@ -557,25 +553,25 @@ Tokens used to vote for candidates who do not become masternodes will not earn s
 ### Voter	
 
 #### What are the voters incentives? Do voters get rewards too?
-Token voters should vote for the candidates who demonstrate strong support to the Tao ecosystem.
+Token voters should vote for the candidates who demonstrate strong support for the Tao ecosystem.
 If strong candidates are voted to become masternodes, the network will be more powerful and the voters will earn more rewards.
 
-More information on the voting and reward mechanism in the [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM).
+Here is more information on the voting and reward mechanism in our [Economics paper](https://docs.tao.network/wp-and-research/economics-paper/).
 
 #### Can you stake TAO?
-Yes, you can stake TAO and receive more TAO coins as reward.
+Yes, you can stake TAO and receive more TAO coins as a reward.
 
 #### How do I Stake? Just holding on my wallet?
-To stake in Tao you must participate in the Tao Masternode election, voting for masternode candidate(s) using Shifu to deposit your tokens in a voting smart-contract.
+To stake your Tao you must participate in the Tao Masternode election, voting for masternode candidate(s) using Shifu to deposit your tokens in a voting smart-contract.
 
 Login to Shifu and click 'Vote' on a node.
 
 #### How does Tao Masternode Proof-of-Stake-Voting (DPOS) work?
 Everyone can can find a list of all masternode candidates on [Shifu](https://shifu.tao.network/).
-All token holders can vote TAO on any candidates via Shifu.
+All token holders can vote with TAO for any candidates via Shifu.
 To vote, token holders must deposit TAO in a smart-contract associated with the voted candidate.
 
-The top-150 most-voted candidates will be promoted to masternode during the next epoch and will be able to sign blocks and collect rewards.
+The top-150 most-voted candidates will be promoted to a masternode during the next epoch and will be able to sign blocks and collect rewards.
 All the voters (stakers) who supported the elected masternodes will receive rewards, proportional to the amount of TAO voted and the efficiency of the masternode.
 
 #### How do I vote (stake)?
@@ -593,7 +589,7 @@ There are many ways to vote in Shifu:
 - Voting from TrustWallet
 - Voting with your wallet's Private Key or MNEMONIC.
 
-#### How do I vote/stake from TaoWallet app on my phone?
+#### How do I vote/stake from the TaoWallet app on my phone?
 Please, read the [following guide](https://medium.com/taoblockchain/how-to-vote-for-tao-masternodes-using-taowallet-1ddc3457907f).
 
 Or watch this video: [https://www.youtube.com/watch?v=tXp4WHl_sxY](https://www.youtube.com/watch?v=tXp4WHl_sxY)
@@ -616,26 +612,26 @@ Yes, you can.
 
 #### Ledger not working?
 Probably your Ledger firmware version is incompatible.
-Sometimes you should upgrade your Ledger to the newest firmware.
+Sometimes you have to upgrade your Ledger to the newest firmware.
 Occasionally a new version could be problematic and you should try to use the previous firmware version.
 
 #### Can I use Trezor to vote for masternodes?
 Yes. Shifu supports Trezor now.
 
 #### What criteria must be considered when voting? Which masternode candidate should I vote for?
-The most important criteria to maximize voter’s profit, the main points you should consider when voting, are the following:
+The most important criteria to maximize a voter’s profit are the following:
 
 - **Top-150 most voted:** Your candidate must be one of the top-150 most-voted. If your candidate gets in the 151th most-voted place, it will not be promoted to masternode and you will earn zero rewards.
 - **Hardware, Performance:** Powerful CPU, RAM, bandwidth, latency, etc so the node can work hard and receive high rewards
-- **Number of signed blocks:** The more signed blocks per epoch, the higher rewards
+- **Number of signed blocks:** The more signed blocks per epoch, the higher the rewards
 - **Time of last signed block:** Verify that the masternode is active
 - **Total Capacity:** Staking rewards are shared between all the masternode votes. Less voted masternodes are more profitable. 5K staked on a 50K-staked masternode will receive ten times more rewards than 5K staked on a 500K total staked masternode.
-- **Social Proof, Reputation:** Masternodes managed by trusted companies that are for the long term, maintaining the masternode, updating hardware and software to last versions, fixing problems, etc.
+- **Social Proof, Reputation:** Masternodes managed by trusted entities that are in it for the long term, maintaining the masternode, updating hardware and software to the lastest versions, fixing problems, etc.
 
 #### How many Masternode Candidates can I vote for?
 You can vote for as many candidates as you wish, splitting your TAO.
 
-Example: If you have 1'000 TAO you can vote 500 TAO for candidate A, 450 TAO for candidate B, and 50 TAO for candidate C.
+For example: If you have 1,000 TAO you can vote 500 TAO for candidate A, 450 TAO for candidate B, and 50 TAO for candidate C.
 
 #### What is the minimum amount to Stake?
 The minimum amount to stake is 100 TAO.
@@ -657,7 +653,7 @@ Yes. You can unvote that masternode and take your tokens back after 96 epochs (a
 If you do not want to support a masternode you voted for, you can unvote it by clicking the ‘Unvote’ button on the masternode's page and enter the amount of TAO you wish to unvote.
 
 After unvoting, your TAO are still locked in the smart contract for 96 epochs (approx. 48 hours) before you are able to withdraw.
-When the lockup period is finished you need to click the ‘Withdraw’ button and the coins will appear again on your wallet.
+When the lockup period is finished you need to click the ‘Withdraw’ button and the coins will appear again in your wallet.
 
 #### How to withdraw after unvoting?
 After unvoting, you need to wait until your TAO is unlocked from the smart contract (96 epochs, approx. 48 hours).
@@ -672,9 +668,9 @@ Note that you might see multiple withdrawals on your account page if you made mu
 #### What is TaoScan?
 [TaoScan](https://scan.tao.network/) is our block explorer. It is pretty similar to EtherScan if you are already familiar with it.
 
-TaoScan provides a user friendly, details and perfection-oriented user interface for Tao block explorer.
+TaoScan provides a user friendly, details and perfection-oriented user interface for the Tao block explorer.
 From a user perspective, TaoScan brings Tao’s transparency to users, because all block, transaction, finality, smart contracts, dApp and token information are read from Tao and shown to users.
-Furthermore, TaoScan also offers technical visualisations and does useful statistics about the Tao performance, token holders and other functionalities.
+Furthermore, TaoScan also offers technical visualisations and does useful statistics about Tao's performance, token holders and other functionaly.
 
 #### What is a TxHash? How to check a TxHash?
 TxHash stands for 'transaction hash', and is also known as a transaction ID.
@@ -699,8 +695,7 @@ It should be less than a minute after taomn command is executed and finished.
 
 #### Stats page wasn't working and showed a 70-second block. What happened?
 The stats page is javascript code running in your browser.
-If your computer loses internet connection or the page is not active anymore for some reasons, the time will increase forever.
-In this case just refresh the page.
+If your computer loses it's internet connection or the page stops loading just refresh the page.
 
 ### Shifu	
 
@@ -718,17 +713,17 @@ The capacity of a candidate is the 50K TAO initial deposit plus the total amount
 #### Which of these numbers on Shifu will tell us which is a good performing node vs poorly performing?
 On Shifu, click on a candidate to open the candidate page.
 Scroll down to 'Masternode Rewards'.
-You should look at 'Sign number', 'Slashing history' under Masternode Rewards to determine a good node or not.
+You should look at 'Sign number', 'Slashing history' under Masternode Rewards to determine if it is good node or not.
 
 
 Masternodes will sign a maximum of 60 blocks per epoch.
 A good masternode will create around 60 sign transactions in that epoch.
-We also calculate the reward based on sign transactions number.
+We also calculate the reward based on the signed transactions number.
 
 
 #### What is a 'checkpoint'?
-For each iteration of 900 blocks (called epoch), a checkpoint block is created, which implements only reward works.
-The masternode, who takes turn in the circular and sequential order to create blocks, has to scan all of the created blocks in the epoch and count number of signatures.
+For each iteration of 900 blocks (called an epoch), a checkpoint block is created, which implements only reward works.
+The masternode, that takes it's turn in the circular and sequential order to create blocks, has to scan all of the created blocks in the epoch and count the number of signatures.
 
 It is worth noting that token holders who unvote before the checkpoint block will not receive any shared reward in the Staking Reward portion.
 
@@ -738,15 +733,13 @@ If you don't want to run your masternode anymore, please remember to resign befo
 ### TaoWallet
 
 #### What is TaoWallet? Where can I download it?
-Tao Wallet is the official mobile wallet for Tao, 
-aiming to store the TAO native coin and tokens issued on Tao. 
-Tao Wallet also allows users to vote for masternodes and track rewards.
+Tao Wallet is the official mobile wallet for Tao, aiming to store the TAO native coin and tokens issued on Tao. Tao Wallet also allows users to vote for masternodes and track rewards.
 
-Users can download TaoWallet at [App Store](https://itunes.apple.com/us/app/tao-wallet/id1436476145?mt=8) and [Play Store](https://play.google.com/store/apps/details?id=com.tao.wallet).
+Users can download TaoWallet at the [App Store](https://itunes.apple.com/us/app/tao-wallet/id1436476145?mt=8) and [Play Store](https://play.google.com/store/apps/details?id=com.tao.wallet).
 
 #### What tokens/coins does TaoWallet support?
-The current TaoWallet supports native TAO on Tao Mainnet.
-TaoWallet will support all tokens on Tao platform in the future.
+The current TaoWallet supports the native TAO coin on the Tao Mainnet.
+TaoWallet will support all tokens issued on the Tao blockchain in the future.
 
 #### How can I create a TAO wallet? What are the options to create a TAO wallet?
 You can create a TAO wallet with the iOS app, the Android app, MyEtherWallet or Metamask.
@@ -754,17 +747,17 @@ You can create a TAO wallet with the iOS app, the Android app, MyEtherWallet or 
 #### Can we vote on Shifu using TaoWallet?
 Yes, TaoWallet can be used for voting/staking on Shifu.
 
-#### How to Restore/Import Recovery Phrase into TaoWallet?
+#### How to Restore/Import your Recovery Phrase into TaoWallet
 Open TaoWallet, click 'Import Your Wallet', then type your recovery phrase.
 
-#### How to Restore/Import Private Key into TaoWallet?
+#### How to Restore/Import your Private Key into TaoWallet
 Open TaoWallet, click 'Import Your Wallet', then type your private key.
 
-#### I have Private Key in my PC. How do I import into TaoWallet in a safe way?
-Go to TaoWallet, click 'Import Your Wallet', choose 'private key' option, you can import directly or using QR code.
+#### I have my Private Key on my PC. How do I import into TaoWallet in a safe way?
+Go to TaoWallet, click 'Import Your Wallet', choose 'private key' option, you can import directly or using the QR code.
 
 #### How do I backup my wallet?
-Go to TaoWallet, click 'Setting tab' in the top left corner, press 'backup wallet', then write down/ scan QR code of your private key/ backup phrase.
+Go to TaoWallet, click the  'Setting tab' in the top left corner, press 'backup wallet', then write down/ scan QR code of your private key/ backup phrase.
 
 #### How do I protect my TaoWallet app?
 TaoWallet allows you to prevent unauthorized transactions by putting a password on the app itself.
@@ -812,17 +805,17 @@ You can export private key/recovery phrases from existing wallet app then import
 
 #### What is the difference between Waihui and a DeX?
 Tao's philosophy on decentralized exchanges is quite different from others.
-In Tao's design for decentralized exchanges, Waihui is the core decentralized exchange protocol, which takes in charge the order matching and execution.
+In Tao's design for decentralized exchanges, Waihui is the core decentralized exchange protocol, which takes charge of the order matching and execution.
 Waihui is integrated into the core layer of the Tao consensus. 
 
 A decentralized exchange (DEX) in Tao's design for DEXs is a relayer that interacts with the underlying Waihui protocol.
 Typically, a relayer will send/receive trade orders to/from Waihui which processes these trade orders. 
 
 TaoDEX will be the first relayer in Tao's decentralized exchange ecosystem.
-We expect TaoDex to be one of the most sophisticated Dex out there, consequently users who like the Dex experience will use TaoDex.
-TaoDex will be the first to list any token running on top of Tao together with well-known cryptocurrencies such as BTC and ETH, and have the best liquidity for new Tao's tokens.
+We expect TaoDex to be one of the most sophisticated DEXs out there, consequently users who like the Dex experience will use TaoDex.
+TaoDex will be the first to list any token running on top of Tao together with well-known cryptocurrencies such as BTC and ETH, and have the best liquidity for new Tao tokens.
 
-With Tao almost zero-fee, 2-second confirmation and 2'000 transactions per second, all relayers interacting with Waihui Protocol will be fully decentralized and very efficient.
+With Tao's almost zero-fee, 2-second confirmations and 2,000 transactions per second, all relayers interacting with the Waihui Protocol will be fully decentralized and very efficient.
 
 #### What is a Relayer? How can I set up one?
 A decentralized exchange (DEX) in Tao's design for DEXs is a relayer that interacts with the underlying Waihui protocol.
