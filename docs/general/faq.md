@@ -401,7 +401,7 @@ A Masternode Candidate is any node who deposited 50K TAO and is listed on [Shifu
 A Masternode Candidate only becomes a Masternode when he/she is in the top 150 voted masternode candidates in an epoch. Only these elected masternodes will be able to sign blocks and receive block rewards.
 
 #### How can I become a Masternode?
-The first step to become a masternode, is becoming a masternode candidate.
+The first step to becoming a masternode is becoming a masternode candidate.
 To become a Masternode Candidate you need:
 
 - to run Tao software on a server with certain minimal hardware requirements
