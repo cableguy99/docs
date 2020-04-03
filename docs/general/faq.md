@@ -141,7 +141,7 @@ How Tao solves some consensus related security isues:
 2. Long-range attacks: Attackers can try to recreate all blocks from a very far position to the current block.
 	Attackers can do that because PoS-based consensus does not require extraordinary hashing power to rewrite the whole blockchain.
 	Tao solves this  by providing finality.
-	Once a block is signed by at least 3/4 of masternodes, it is consider irreversible, meaning that any attempt to re-write the blockchain history will be rejected.
+	Once a block is signed by at least 3/4 of masternodes, it is considered irreversible, meaning that any attempt to re-write the blockchain history will be rejected.
 3. Censorship-resistance: Please [refer to this medium article](https://medium.com/taoblockchain/taoblockchain-vs-eos-io-the-battle-of-posv-vs-dpos-or-just-some-coincidence-of-design-philosophy-b5f606a1e5df) for more detailed analysis
 4. DDoS and spamming attacks: Tao's transaction fee is not zero (even it is very low), attackers still require a significant amount of TAO in order to flood the network for only a short time.
 
