@@ -474,7 +474,7 @@ The private address is from where you make the initial 50K TAO deposit and where
 #### How can I create a public 'coinbase address' wallet? Is it only with TaoWallet for iOS and Android? Are there other options?
 You need to create a wallet for the masternode public address.
 This wallet does not need to contain any TAO, think of it as a shell address.
-You will then stake tao into the masternode address via your main TAO wallet.
+You will then stake TAO into the masternode address via your main TAO wallet.
 
 You can use the iOS and Android apps.
 Also you can create wallets with Metamask, MyEtherWallet.
