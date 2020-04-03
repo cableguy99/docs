@@ -115,7 +115,7 @@ Any d-App written in Solidity or any other EVM-compatible blockchain language ca
 #### Is Tao a side-chain of Ethereum?
 No.  Tao has run it's own blockchain since the Tao 1.0 Mainnet was launched August 29th, 2016.
 
-#### Is Tao compatible with Ethereum?
+#### Is Tao compatible with Ethereum?What is TAO? Can you describe the functions and purpose of TAO
 Yes, any smart-contract written in Solidity can be easily ported to Tao.
 This is one strength appealing to some dApp developers and some of our partners.
 
