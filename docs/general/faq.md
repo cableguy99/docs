@@ -85,7 +85,7 @@ This enables Tao to achieve:
 #### How does Tao compare with other available blockchain projects?
 Some of our competitors are EOS.IO, Casper FFG, Cardano, Tendermint, Lisk.
 
-The world is a pretty big place, and it is clear in the second decade of the 21st century that one blockchain will not be sufficient to serve the unique needs of every industry.  Blockchain specialization is the trend which we are riding.  Startups often kill themselves because they cannot make a desirable product, not because of the competition but due to a lack of traction within their target industry.  Tao solves this problem with a dedicated focus on the music economy.
+The world is a pretty big place, and it is clear in the second decade of the 21st century that one blockchain will not be sufficient to serve the unique needs of every industry.  Blockchain specialization is the trend that we are riding.  Startups often kill themselves because they cannot make a desirable product, not because of the competition but due to a lack of traction within their target industry.  Tao solves this problem with a dedicated focus on the music economy.
 At the moment, besides the core Tao platform, we want to focus on a few quality Dapp use cases that can make a difference.
 Quality before quantity.
 
