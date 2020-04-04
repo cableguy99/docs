@@ -80,7 +80,7 @@ This enables Tao to achieve:
 
 **Our own community of builders**
 
-- Tao also is working vigorously on building its ecosystem and has sealed many partnerships from all stakeholders in the music economy: from distribution, to authenticity and identity, to rights management, to payments.
+- Tao is also working vigorously on building it's ecosystem and has sealed many partnerships from all stakeholders in the music economy: from distribution, to authenticity and identity, to rights management, to payments.
 
 #### How does Tao compare with other available blockchain projects?
 Some of our competitors are EOS.IO, Casper FFG, Cardano, Tendermint and Lisk.
