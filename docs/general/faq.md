@@ -274,7 +274,7 @@ You can store TAO in TaoWallet, TrustWallet, MetaMask, and soon Ledger and Trezo
 
 We recommend that you store your TAO in TaoWallet.
 
-Please, read more details here: [https://docs.tao.network/get-started/wallet/](https://docs.tao.network/get-started/wallet/)
+Please read more details here: [https://docs.tao.network/get-started/wallet/](https://docs.tao.network/get-started/wallet/)
 	
 #### How to connect Metamask / MyEtherWallet with Tao mainnet?
 
