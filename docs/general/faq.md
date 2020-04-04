@@ -127,7 +127,7 @@ The Tao 2.0 Mainnet, which these documents address, was launched on March 29th, 
 TAO is the native currency of the Tao blockchain platform.
 
 #### How is Tao addressing security?
-n terms of the security of the consensus protocol, Tao proposes Random Generals and Randomization to additionally protect the system. The details of these techniques can be referenced in our [Technical paper](https://taoblockchain.github.io/docs/wp-and-research/technical-whitepaper/).
+In terms of the security of the consensus protocol, Tao proposes Random Generals and Randomization to additionally protect the system. The details of these techniques can be referenced in our [Technical paper](https://taoblockchain.github.io/docs/wp-and-research/technical-whitepaper/).
 
 How Tao solves some consensus related security isues:
 
