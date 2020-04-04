@@ -119,7 +119,7 @@ Yes, they can make an app, and deploy it to both Ethereum and Tao.
 It can be done relatively easily since Tao supports EVM and shares a common architecture with Ethereum.
 
 #### When is Tao mainnet launch?
-Tao 1.0 Mainnet was launched on August 29th, 2016.  Tao is one of the oldest, consistently running, fault-free cryptocurrencies ever created.
+The Tao 1.0 Mainnet was launched on August 29th, 2016.  Tao is one of the oldest, consistently running, fault-free cryptocurrencies ever created.
 
 The Tao 2.0 Mainnet, which these documents address, was launched on March 29th, 2020.
 
