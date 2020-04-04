@@ -89,7 +89,7 @@ The world is a pretty big place, and it is clear in the second decade of the 21s
 At the moment, besides the core Tao platform, we want to focus on a few quality Dapp use cases that can make a difference.
 Quality before quantity.
 
-Our core blockchain solution like the sharding proposal is of very high quality, and potentially better than multiple high profile attempts at scaling currently. The solution is also very unique to Tao's Marsternode design, which will remain our competitive product advantage for a long time.
+Our core blockchain solutions like the sharding proposal are of very high quality, and potentially better than multiple high profile attempts at scaling currently. The solution is also very unique to Tao's Marsternode design, which will remain our competitive product advantage for a long time.
 
 There are also several other product solutions in the design stage which also highly integrate with Tao's overall design. These product innovations are some of the core competencies we have that make Tao very unique compared to other major projects. We are doing our best to solve the scalability problem, maximize the TPS and stay strong in our target market.
 
