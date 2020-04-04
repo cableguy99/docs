@@ -269,7 +269,7 @@ No. TAO is the native coin of the Tao blockchain.
 A TRC1 token is a token which can be issued on the Tao blockchain.
 TRC1 is similar to the ERC-20 standard in the Ethereum  blockchain.
 
-#### Where to store TAO? How can I send TAO to my wallet?
+#### Where do I store TAO? How can I send TAO to my wallet?
 You can store TAO in TaoWallet, TrustWallet, MetaMask, and soon Ledger and Trezor.
 
 We recommend to store TAO in TaoWallet.
