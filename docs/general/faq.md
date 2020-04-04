@@ -22,7 +22,7 @@ The problems that Tao aims to solve can be summarized as follows:
 - Compromises which encouraged the participation of bad actors
 
 Blockchain technology hasn't been widely adopted by the music economy because of a lack of respect for the needs of artists, fans and other stakeholders.  Tao addresses these problems directly and enables many decentralized applications including but not limited to cryptocurrencies, smart-contracts, voting, supply-chain management, decentralized identity and verification of authenticity.
-In order to reach this goal, the current blockchain infrastructure must at least be able to harmonize with existing music industry stakeholders and technologies such as DAWs, rights management and accounting platforms, financial services and payments.
+In order to reach this goal, the current blockchain infrastructure must at least be able to harmonize with existing music industry stakeholders and technologies such as DAWs, rights management and accounting platforms and financial services and payments.
 Nevertheless, the reality is disappointing: Bitcoin and Ethereum can only process around 7 and 15 transactions per second respectively and the mistrust of the motives of it's creators and participants has made the technology unusable for the music economy.
 Tao is continuously working and researching several scaling solutions. Regarding on-chain scaling, Sharding and Proof-of-Stake-based consensus are of potential that can significantly improve transaction processing performance while maintaining the security requirements of the system, however Tao enjoys a "second mover" market advantage and will continue to investigate and research additional scaling methodologies. 
 
