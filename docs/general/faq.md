@@ -272,7 +272,7 @@ TRC1 is similar to the ERC-20 standard in the Ethereum  blockchain.
 #### Where do I store TAO? How can I send TAO to my wallet?
 You can store TAO in TaoWallet, TrustWallet, MetaMask, and soon Ledger and Trezor.
 
-We recommend to store TAO in TaoWallet.
+We recommend that you store yuor TAO in TaoWallet.
 
 Please, read more details here: [https://docs.tao.network/get-started/wallet/](https://docs.tao.network/get-started/wallet/)
 	
