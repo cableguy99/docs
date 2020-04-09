@@ -168,7 +168,7 @@ If you need support, please contact us on one of these platforms:
 - Bugs or technical contributions: [GitHub (https://github.com/taoblockchain/tao2)](https://github.com/taoblockchain/tao2)
 - General quotes regarding our blockchain: [Telegram (https://t.me/taoblockchain)](https://t.me/taoblockchain)
 
-#### Which are Tao's official channels for communication and information?
+#### What are Tao's official channels for communication and information?
 You can keep in touch with our latest news here:
 
 1. Twitter: [https://twitter.com/taoblockchain](https://twitter.com/taoblockchain)
