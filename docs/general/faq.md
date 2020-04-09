@@ -801,7 +801,7 @@ You can export private key/recovery phrases from existing wallet app then import
 #### What is the difference between Waihui and a DeX?
 Tao's philosophy on decentralized exchanges is quite different from others.
 In Tao's design for decentralized exchanges, Waihui is the core decentralized exchange protocol, which takes charge of the order matching and execution.
-Waihui is integrated into the core layer of the Tao consensus. 
+Waihui is integrated into the core layer of Tao consensus. 
 
 A decentralized exchange (DEX) in Tao's design for DEXs is a relayer that interacts with the underlying Waihui protocol.
 Typically, a relayer will send/receive trade orders to/from Waihui which processes these trade orders. 
