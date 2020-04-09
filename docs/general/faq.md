@@ -428,7 +428,7 @@ These servers would be a good starting point:
 - **Amazon EC2:** C5 instance
 - **Google Cloud Engine:** n1-highcpu-16
 
-Setting up a masternode candidate on a weaker machine might result in poor performances, significantly impacting the owner's rewards and the chain performance.
+Setting up a masternode candidate on a weaker machine might result in poor performance, significantly impacting the owner's rewards and the chain performance.
 
 **Note:** If you are running a node on the Testnet, 2CPU/8GB of RAM is sufficient.
 
