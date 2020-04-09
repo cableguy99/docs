@@ -11,7 +11,7 @@ Security, stability and chain finality are guaranteed via novel techniques such 
 
 Tao supports all EVM-compatible smart-contracts, protocols and atomic cross-chain token transfers. New scaling techniques such as sharding, EVM parallelisation, private-chain generation and hardware integration will be continuously researched and incorporated into Tao's masternode architecture (named "Shifu"). It will be an ideal scalable smart-contract public blockchain for decentralized apps, token issuances and token integrations for every stakeholder in the music economy.
 
-	
+	owner's rewards and the chain performance
 #### What problem is Tao aiming to solve?
 The problems that Tao aims to solve can be summarized as follows:
 
@@ -428,7 +428,7 @@ These servers would be a good starting point:
 - **Amazon EC2:** C5 instance
 - **Google Cloud Engine:** n1-highcpu-16
 
-Setting up a masternode candidate on a weaker machine might result in poor performance, significantly impacting the owner's rewards and the chain performance.
+Setting up a masternode candidate on a weaker machine might result in poor performance, significantly impacting the owner's rewards and the chain's performance.
 
 **Note:** If you are running a node on the Testnet, 2CPU/8GB of RAM is sufficient.
 
