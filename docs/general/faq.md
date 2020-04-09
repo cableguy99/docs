@@ -99,7 +99,7 @@ Even while we focus on the music indsutry, there is still a need for decentraliz
 On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO, etc are competitors because app developers and token issuers will generally choose only one blockchain to work on.
 On the other hand, it is too early to focus on competition as it is more important to expand the whole blockchain ecosystem rather than to compete.
 
-Tao has a unique position in which it adds value to the Ethereum ecosystem by addressing scalability and governance issues while keeping the same smart-contracts and general architecture and remaining laser-focused on serving a specific market vertical with $26B per year in revenues.
+Tao has a unique position in which it adds value to the Ethereum ecosystem by addressing scalability and governance issues while keeping the same smart-contracts and general architecture, and remaining laser-focused on serving a specific market vertical with $26B per year in revenues.
 
 #### Tao is EVM-compatible. What does that mean?
 EVM means Ethereum Virtual Machine.
