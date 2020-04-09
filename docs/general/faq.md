@@ -159,7 +159,7 @@ We like to publish code publicly when it reaches a certain level of development 
 Keeping early projects private is probably more responsible for now due to our scale.
 It might change in the future.
 
-We are also working with some third parties with which we signed a non-disclosure-agreements for code development.
+We are also working with some third parties with which we signed non-disclosure-agreements for code development.
 
 #### Where can I contact you to get support?
 If you need support, please contact us on one of these platforms:
