@@ -40,7 +40,7 @@ Specifically, when a block is created by a masternode, it must be verified by an
 This solves the Byzantine Generals Problem of proof of stake by selecting a "general" at random from those units in the field. Derived from three years of experience with an operating proof of stake network in the wild, this unique innovation provides for an entirely new level of transaction finality and reliability in proof of stake networks.
 
 #### What is an 'epoch'?
-An epoch is a 900-block period of 2-second block times starting from block #1 (900 blocks x 2s/block = around 1800s or ~30 minutes).
+An epoch is a 900-block period of 2-second blocks starting from block #1 (900 blocks x 2s/block = around 1800s or ~30 minutes).
 
 #### Which scaling solutions will Tao implement? Will you have sharding?
 Tao solutions are based on on-chain scaling built into an architecture of 150 voted masternodes with our Delegated Proof-of-stake Voting (DPOS) consensus protocol.
