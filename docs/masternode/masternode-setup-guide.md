@@ -34,7 +34,7 @@ The following are required items and server specifications.
 
 ### For Advanced users, go here (Command-line-only-version)
 For advanced users or repeat-offenders, [see this super-short command-line-only version](#commands-only-advanced-users) of the lengthy guide below.
-If you have done this before or know what you are doing, you might more-easily follow these linux commands instead of having to read through the below lengthy prose.
+If you have done this before or know what you are doing, you might more-easily follow these linux commands instead of having to read through the following lengthy prose.
 
 > Note: You will *MISS* many tips and tricks found in the detailed instructions.
 
@@ -96,7 +96,7 @@ LTS versions are more stable and have seen less errors when installing Docker an
 You must use Ubuntu 18.04 to seek support from the wider community of Tao.
 If you need help with this, [see this example](https://medium.com/taoblockchain/how-to-run-a-tao-masternode-from-a-to-z-3793752dc3d1#6122).
 
-> Data Storage: It is recommended to assure that your provider has Block Storage or expandable disk space on SSD drives (more performant).
+> Data Storage: It is recommended to assure that your provider has Block Storage or expandable disk space on SSD drives (better performance).
 Block Storage is pay-as-you-go disk space that you can expand in the future.
 You may not need it now, but you will in the future.
 Some locations within a hosting provider do not have this, while others will.
@@ -169,7 +169,7 @@ cat /etc/group | grep sudo
 groups michael
 ```
 
-Assure that you get a response such as `sudo:x:27:michael` from first command and `michael : michael sudo` from the second command. 
+Assure that you get a response such as `sudo:x:27:michael` from the first command and `michael : michael sudo` from the second command. 
 
 When you eventually (not yet) log in as your new user, you can type `sudo` before commands to perform actions with superuser privileges.
 Remain logged in as the root user for now, as we have more initial setup to do. 
@@ -441,7 +441,7 @@ Give it to no one.
 
 * WALLET2 Suggestions - 
   Preferred to use Ledger / Hardware Wallet (if possible) in combo with Metamask because 50k and rewards will be handled here.
-  Assure to use an address you do not have history on eth chain with - otherwise others will be able to see your unrelated investment history.
+  Make sure  to use an address that does not have history on the Etherium chain - otherwise others will be able to see your unrelated investment history.
 
 Because most wallet apps do not have Tao mainnet as a selectable network yet, you will need to manually add the new mainnet if you have not already. 
 See the first link below for the guide on how to do this.
@@ -460,7 +460,7 @@ More info:
 
 
 ## 8. Run TAOMN
-Below, you will finally start your Tao node with a utility called `taomn`.
+Now it's time to start your Tao node with a utility called `taomn`.
 
 ### Initial TAOMN start
 **IMPORTANT:** Logout and SSH back in so that the $PATH variable takes effect.
