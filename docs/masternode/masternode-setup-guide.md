@@ -93,7 +93,7 @@ It is in your best interest because if any one popular provider goes down, other
 Choose **Ubuntu 18.04**.
 This is an LTS version ([Long Term Support](https://wiki.ubuntu.com/LTS)).
 LTS versions are more stable and have seen less errors when installing Docker and Python.
-You must use Ubuntu 18.04 to seek support from the wider community or Tao.
+You must use Ubuntu 18.04 to seek support from the wider community of Tao.
 If you need help with this, [see this example](https://medium.com/taoblockchain/how-to-run-a-tao-masternode-from-a-to-z-3793752dc3d1#6122).
 
 > Data Storage: It is recommended to assure that your provider has Block Storage or expandable disk space on SSD drives (more performant).
