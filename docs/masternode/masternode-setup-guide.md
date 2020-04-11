@@ -427,7 +427,7 @@ No coins need to be inserted in this wallet; It's even advised to be empty, so i
 Your 50k of staked coins need to be placed here; later, the 50k will go into a smart contract; eventually, masternode rewards will show here.
 
 You will need both the **Public Key** and **Private Key** for both addresses.
-It is advise that you store all of this information somewhere safe, yet accessible.
+It is advised that you store all of this information somewhere safe, yet accessible.
 You may need to utilize this information during continued operations of your masternode.
 Password manager apps like KeePass/KeePassXC, LastPass, or 1Password are your friend.
 Your private key is your money.
