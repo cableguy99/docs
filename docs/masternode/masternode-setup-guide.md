@@ -1,6 +1,6 @@
 # Tao Masternode Setup Guide
 
-This is an procedural step-by-step guide to setting up your first Tao Masternode using the `taomn` tool.
+This is a procedural step-by-step guide to setting up your first Tao Masternode using the `taomn` tool.
 It is meant for first-time and intermediate-level masternode operators.
 
 Security Disclaimer:
