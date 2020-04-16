@@ -108,7 +108,7 @@ high-speed network connectivity in order to ensure the required block
 time (target to two seconds). Only masternodes can produce and seal
 blocks. In order for that, the **Tao** consensus relies on the concept of
 **Random Generals** that improves some existing consensus mechanisms,
-namely **Single Validation**. In the followings, we first describe the
+namely **Single Validation**. In the following, we first describe the
 **Random Generals**, then analyze the differences and improvements of
 **Random Generals** compared to **Single Validation**.
 
@@ -160,10 +160,10 @@ analyzing some attacking scenarios as shown in Fig.
     [SV a](#fig:singlevalidation)), it rejects block100 and creates
     another block100 next to block99. But, if M2 is an attacker
     (see Fig. [SV b](#fig:singlevalidation)) that corporates with M1,
-    M2 ignores the invalidation of block100, signs it and creates next
+    M2 ignores the invalidation of block100, signs it and creates the next
     block, namely block101 that is valid. Then, the next masternode M3
     verifies that block101 is valid, M3 signs block101 and creates a
-    block102. By this way, Single Validation potentially leaves the
+    block102. By doing it this way, Single Validation potentially leaves the
     blockchain with “garbage” or invalid blocks which require a “rebase”
     to restore the validity of the blockchain.
 
@@ -181,14 +181,14 @@ analyzing some attacking scenarios as shown in Fig.
     the other hand, if M2 is also an attacker pairing/handshaking with
     M1 (see Fig. [DV b](#fig:doublevalidation)), M2 signs block100
     despite its invalidity (remember that the block verifier M2 is
-    randomly selected, there has little chance of successfully pairing
+    randomly selected, there is little chance of successfully pairing
     M1 and M2). Next, even though M3 will verify that block100 has two
     valid signatures, M3 still rejects it because block100 is
     invalidated by M3 that will create another valid block100. In order
     to break the stability and consistency of the blockchain in this
-    case, M3 should be an attacker together with M1 and M2, which,
+    case, M3 wuold need to be an attacker together with M1 and M2, which,
     however, has a very low probability. In other words, DV strengthens
-    the consistency of the blockchain and makes it hard to break.
+    the consistency of the blockchain and makes it harder to break.
 
 
 ![doublevalidatioin](/assets/doublevalidation.jpg){#fig:doublevalidation}*Random Generals (DV): (a) DV with block creator as an attacker and (b) DV with both block creator and block verifier as attackers*
