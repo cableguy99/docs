@@ -64,37 +64,37 @@ Masternodes are selected via where token holders vote for block producers via an
 
 Masternodes which process valid states to create and verify blocks will be incentivized with TAO. Furthermore, token holders who vote for these incentivized masternodes will also receive TAO in proportion to the amount of their Delegate. 
 
-The list of masternode candidates is dynamically sorted based on Delegate counts. The performance of the masternodes will be tracked and reported back to the token holders in terms of three main metrics: CPU/Memory charts which ensure the workload of the masternodes, the number of signed blocks which indicates their work performance, and the last signed block which figures out their last activity. Token holders, at any time, can unvote masternodes, who have low performance, and provide their Delegates to the other masternodes which display superior performance. As lower performing masternodes lose Delegates, they will eventually be denied the ability to create and sign new blocks.  This mechanism keeps the system healthy and scalable as masternodes must always outperform their peers to maintain a superior production rate and thereby earn the most TAO. Therefore, only the strongest masternodes are voted and can flourish.
+The list of masternode candidates is dynamically sorted based on Delegate counts. The performance of the masternodes will be tracked and reported back to the token holders in terms of three main metrics: CPU/Memory charts which ensure the workload of the masternodes, the number of signed blocks which indicates their work performance, and the last signed block which figures out their last activity. Token holders, at any time, can unvote masternodes, who have low performance, and provide their Delegates to the other masternodes which display superior performance. As lower performing masternodes lose Delegates, they will eventually be denied the ability to create and sign new blocks.  This mechanism keeps the system healthy and scalable as masternodes must always outperform their peers to maintain a superior production rate and thereby earn the most TAO. Therefore, only the strongest masternodes are voted for and can flourish.
 
 ###Voting & Masternode Pool {#voting-masternode-pool .unnumbered}
 
-There are maximum one hundred fifty (150) masternodes elected in the masternode pool. The required amount of deposit for masternode role is set at 100,000TAO. This amount is locked in a *voting smart contract*. Once a masternode is demoted (by not remaining in the top one hundred fifty voted masternodes) or intentionally quits the masternode candidates list/masternode pool, the deposit will have been locked for a month.
+There are a maximum one hundred fifty (150) masternodes elected in the masternode pool. The required amount of deposit for a masternode role is set at 100,000 TAO. This amount is locked in a *voting smart contract*. Once a masternode is demoted (by not remaining in the top one hundred fifty voted masternodes) or intentionally quits the masternode candidates list/masternode pool, the deposit will have been locked for a month.
 
-Token holders can vote at any time, by any number of votes (which is actually counted by the amount of TAO they bet on some masternode candidates). They can use masternode’s performance statistics in the governance *Voting DApp* as reference information to give votes. The set of masternodes is dynamically sorted by the amount of TAO and counted up to one hundred fifty, upon reception of votes.
+Token holders can vote at any time, by any number of votes (which is actually counted by the amount of TAO they bet on each masternode candidate). They can use the masternode performance statistics in the governance *Voting DApp* to determine which masternode candidates to support with their votes. The list of masternodes is dynamically sorted by the amount of TAO and counted up to one hundred fifty, upon reception of votes.
 
 ### Reward Mechanism {#reward-mechanism .unnumbered}
 
-For each iteration of 900 blocks (called epoch), a checkpoint block is
-created, which implements only reward works. The masternode, who takes
+For each iteration of 900 blocks (called an epoch), a checkpoint block is
+created, which implements only reward works. The masternode, which takes
 turn in the circular and sequential order to create blocks, has to scan
-all of the created blocks in the epoch and count number of signatures.
-The reward mechanism is designed following the policy as follows: the
-higher number of signatures one masternode has made, the more reward he
-earns. For instance, within an epoch, masternode A who has sealed twice
-the blocks than masternode B earns double amount of TAO than
+all of the created blocks in the epoch and count the number of signatures.
+The reward mechanism is designed as follows: the
+higher the number of signatures one masternode has made, the more rewards it
+earns. For instance, within an epoch, masternode A which has sealed twice
+the blocks of masternode B earns double the amount of TAO than
 masternode B does.
 
 Furthermore, there is also a reward sharing ratio among token holders and
-masternode who has been elected supported by the token holders.
+masternodes who have been elected supported by the token holders.
 Specifically, each epoch consists of 900 blocks, which will reward a total of 250 TAO in the first two years.
-This amount of 250 TAO will be divided to all of the Masternodes proportionally to the number of signatures they sign during the epoch.
+This amount of 250 TAO will be divided among all of the Masternodes proportionally to the number of signatures they sign during the epoch.
 
-Afterward, the reward achieved by each Masternode  will be divided into three portions.
+Afterward, the rewards achieved by each Masternode  will be divided into three portions.
 -   **Infrastructure Reward**: The first portion of 40% called **Infrastructure Reward** goes to the Masternode.
 
--   **Staking Reward**: The second portion of 50% called **Staking Reward** goes to the pool of all voters  for that Masternode which is shared proportionally based on the token stake.
+-   **Staking Reward**: The second portion of 50% called **Staking Reward** goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake.
 
--   **Foundation Reward**: The last portion of 10% called **Foundation Reward** goes to a special account controlled by the Masternode Foundation, which is run by **Tao** company initially.
+-   **Foundation Reward**: The last portion of 10% called **Foundation Reward** goes to a special account controlled by the Masternode Foundation, which is run by the **Tao** community initially.
 
 It is worth noting that coin-holders who unvote before the checkpoint block will not receive any shared reward in the **Staking Reward** portion.
 
