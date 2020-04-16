@@ -159,7 +159,7 @@ analyzing some attacking scenarios as shown in Fig.
     that invalidly benefits M1, if M2 is honest (see Fig.
     [SV a](#fig:singlevalidation)), it rejects block100 and creates
     another block100 next to block99. But, if M2 is an attacker
-    (see Fig. [SV b](#fig:singlevalidation)) that corporates with M1,
+    (see Fig. [SV b](#fig:singlevalidation)) that cooperates with M1,
     M2 ignores the invalidation of block100, signs it and creates the next
     block, namely block101 that is valid. Then, the next masternode M3
     verifies that block101 is valid, M3 signs block101 and creates a
