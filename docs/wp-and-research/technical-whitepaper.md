@@ -181,7 +181,7 @@ analyzing some attacking scenarios as shown in Fig.
     the other hand, if M2 is also an attacker pairing/handshaking with
     M1 (see Fig. [DV b](#fig:doublevalidation)), M2 signs block100
     despite its invalidity (remember that the block verifier M2 is
-    randomly selected, there is little chance of successfully pairing
+    randomly selected), there is little chance of successfully pairing
     M1 and M2). Next, even though M3 will verify that block100 has two
     valid signatures, M3 still rejects it because block100 is
     invalidated by M3 that will create another valid block100. In order
