@@ -186,7 +186,7 @@ analyzing some attacking scenarios as shown in Fig.
     valid signatures, M3 still rejects it because block100 is
     invalidated by M3 that will create another valid block100. In order
     to break the stability and consistency of the blockchain in this
-    case, M3 wuold need to be an attacker together with M1 and M2, which,
+    case, M3 would need to be an attacker together with M1 and M2, which,
     however, has a very low probability. In other words, DV strengthens
     the consistency of the blockchain and makes it harder to break.
 
