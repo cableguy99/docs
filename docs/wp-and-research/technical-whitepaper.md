@@ -199,7 +199,7 @@ Randomization for Block Verifiers for Random Generals {#randomization-for-block-
 ### The First Masternode/Block Creator {#the-first-masternodeblock-creator .unnumbered}
 
 The first masternode/block creator in a given epoch $e$ can be selected
-by a round-turn game and can be formal defined as an array:
+by a round-robin game and can be formally defined as an array:
 
 $$\begin{bmatrix}
 \nu_1
@@ -222,23 +222,23 @@ epoch $e+1$, the process is performed by the following steps.
 
 -   **Step 1: Random Numbers Generation and Commitment Phase:**
 
-    First, at the beginning of epoch $e$, each masternode $V_i$ will
+    First, at the beginning of an epoch $e$, each masternode $V_i$ will
     securely create an array of $n+1$ special random numbers
     $ Recommend_i= [ r_{i.1}, r_{i.2}, ..., r_{i.n}, \theta_i]$, where
-    $r_{i.k}\in [1, ..., m]$ indicating the recommendation of ordered
+    $r_{i.k}\in [1, ..., m]$ indicating the recommendation of an ordered
     list of block verifiers for the next epoch of $V_i$, and
     $\theta_i \in \{-1, 0, 1\}$ is used for increasing the
     unpredictability of the random numbers. Second, each masternode
     $V_i$ has to encrypt the array $Recommend_i$ using a secret key $SK_i$, say
     $Secret_i = Encrypt (Recommend_i, SK_i)$. Next, each masternode forms a
-    "*lock*” message that contains encrypted secret array $Secret_i$; signs off this message with its blockchain’s private key through the Elliptic Curve Digital Signature Algorithm (ECDSA) scheme currently used in Ethereum and Bitcoin along with the corresponding epoch index and its public key generated from its private key. By doing this, every
+    "*lock*” message that contains an encrypted secret array $Secret_i$; signs off this message with its blockchain’s private key through the Elliptic Curve Digital Signature Algorithm (ECDSA) scheme currently used in Ethereum and Bitcoin along with the corresponding epoch index and its public key generated from its private key. By doing this, every
     masternode can check who created this *lock* message through ECDSA verification scheme and which epoch
     it relates to. Then, each node $V_i$ sends their *lock* message with its signature and public key to a
     **Smart contract** stored in the blockchain, so that
     eventually each masternode collects and knows the *lock*s from all
     other masternodes.
 
--   **Step 2: Discovery and Recovery Phase:** The recovery phase is for every node to reveal its previous lock message so that other nodes can get to know the secret array it has sent before. A masternode only starts revealing its lock message if all masternodes have sent their lock messages to the smart contract or a certain timeout event occurs. Each masternode then opens its lock message by sending an ”*unlock*” message to the smart contract for other masternodes to open the corresponding lock. Imagine a commitment-like scheme in this case where a lock message is a commitment message locking its contained recommendation array $Recommend_i$ (so that no one can open or guess the contained array), and the unlock message gives the key for other masternodes to decrypt the box and retrieve the values of $Recommend_i$. Eventually, a masternode has both locks and unlocks of others. If some elector is an adversary which might publish its lock but not intend to send the corresponding unlock, other masternodes can ignore the adversary’s lock and set all its random values be *1* as default. The idea is simple: the network can keep working successfully even if some masternodes are adversaries.
+-   **Step 2: Discovery and Recovery Phase:** The recovery phase is for every node to reveal its previous lock message so that other nodes can get to know the secret array it has sent before. A masternode only starts revealing its lock message if all masternodes have sent their lock messages to the smart contract or a certain timeout event occurs. Each masternode then opens its lock message by sending an ”*unlock*” message to the smart contract for other masternodes to open the corresponding lock. Imagine a commitment-like scheme in this case where a lock message is a commitment message locking its contained recommendation array $Recommend_i$ (so that no one can open or guess the contained array), and the unlock message gives the key for other masternodes to decrypt the box and retrieve the values of $Recommend_i$. Eventually, a masternode has both locks and unlocks of others. If some elector is an adversary which might publish its lock but not intend to send the corresponding unlock, other masternodes can ignore the adversary’s lock and set all its random values to *1* as default. The idea is simple: the network can keep working successfully even if some masternodes are adversaries.
 
 -   **Step 3: Assembled Matrix and Computation Phase:** At the point of
     the slot $n^{th}$ of the epoch $e$, the secret arrays $Secret_I$ in
@@ -246,17 +246,17 @@ epoch $e+1$, the process is performed by the following steps.
     the plain version of $Recommend_i$. Each tuple of the first $n$
     numbers of each $V_i$ will be assembled as the $i^{th}$ column of an
     $n \times m$ matrix. All the last number $\theta_i$ forms a
-    $m\times 1$ matrix. Then each nodes will compute the block verifiers
+    $m\times 1$ matrix. Then each node will compute the block verifiers
     ordered list by some mathematical operations as explained below. The
     resulting output is a matrix $n \times 1$ indicating the order of
     block verifiers for the next epoch $e+1$.
 
 ### The Second Masternode/Block Verifier {#the-second-masternodeblock-verifier .unnumbered}
 
-Then, each node soon compute the common array $\nu_2$ for the order of
-the block verifiers by the following steps as in the upper equation as belows.
+Then, each node will compute the common array $\nu_2$ for the order of
+the block verifiers by the following steps as in the upper equation as follows below.
 Then, $\nu_2$ is obtained by modulo operation of element values of
-$\nu'_2$ as in the lower equation in the followings:
+$\nu'_2$ as in the lower equation in the following:
 
 $$\label{eq:matrix}
 \begin{bmatrix} \nu'_2
@@ -304,15 +304,15 @@ $$\label{eq:eq2}
 *"There is a standard definition of “total economic finality”: it takes
 place when $\frac{3}{4}$ of all masternodes make maximum-odds bets that
 a given block or state will be finalized. This condition offers very
-strong incentives for masternodes to never try colluding revert the
+strong incentives for masternodes to never try colluding to revert the
 block: once masternodes make such maximum-odds bets, in any blockchain
 where that block or state is not present, the masternodes lose their
 entire deposit"* (see [here](#finality).
 
 **Tao** keeps that standardization in the design so that one block is considered
 as irreversible if it collects at least $\frac{3}{4}$ signatures of all
-masternodes pool. The time-line of blockchain creation process,
-checking finality and mark the block as immutable is described as in
+masternodes. The time-line of the blockchain creation process,
+checking finality and marking the block as immutable is described as in
 Figure: [ChainMaking](#fig:ChainMaking) below.
 
 ![ChainMaking](/assets/ChainMakingProcess3.jpg){#fig:ChainMaking}
@@ -321,7 +321,7 @@ Figure: [ChainMaking](#fig:ChainMaking) below.
 
 ### Basic Concepts & Protocol Description {#basic-concepts-protocol-description .unnumbered}
 
-In order to have a solid foundation for us to prove that our blockchain can achieve what are claimed, we first present our preliminary formalizations of the concepts that will be used in our yellow paper later.
+In order to have a solid foundation for us to prove that our blockchain can achieve what is claimed, we first present our preliminary formalizations of the concepts that will be used in our yellow paper later.
 
 
 To start, as we are dealing with proof of stake consensus algorithm, we
@@ -336,7 +336,7 @@ Only one block can be created in a slot. We assume that there is a roughly synch
 
 1. Every masternode can determine the index of the current slot based on the current time and ”any discrepancies between parties’ local time are insignificant in comparison with the length of time represented by a slot” [Cardano](#Cardano2017)
 
-2. The amount of a slot time is sufficient to guarantee that any message transmitted by an honest party at the beginning of the time window will be received by any other honest party by the end of that time window. While this assumption similar to [Cardano](#Cardano2017), Tao requires it in order for a block creator to propagate its created block to the corresponding block verifier to ensure that the block is signed by both the masternodes before the next block creator builds another block on top of it.
+2. The amount of a slot time is sufficient to guarantee that any message transmitted by an honest party at the beginning of the time window will be received by any other honest party by the end of that time window. While this assumption is similar to [Cardano](#Cardano2017), Tao requires it in order for a block creator to propagate its created block to the corresponding block verifier to ensure that the block is signed by both the masternodes before the next block creator builds another block on top of it.
 
 
 As mentioned in Section [TaoOverview](#Sec:MasternodeDesign), in our setting, we assume that the fixed collection of $m$ (150) masternodes
@@ -369,8 +369,8 @@ process shown in Fig. [EpochProcess](#fig:EpochProcess).
 
 ### Nothing-at-stake {#nothing-at-stake .unnumbered}
 
-Nothing-at-stake is a well-known problem in PoS-based blockchain, just
-like 51% attack in PoW algorithm. PoW-based miners require CapEx
+Nothing-at-stake is a well-known problem in PoS-based blockchains, just
+like 51% attacks in PoW algorithms. PoW-based miners require CapEx
 (capital expenditures) for buying mining equipment such as ASICs and
 OpEx (operation expenditures) such as electricity to solve mathematical
 puzzles securing the network (see [here](#capex)). That means, there is always an
