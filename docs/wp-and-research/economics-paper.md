@@ -90,7 +90,7 @@ These conditions apply to Ether and Bitcoin at the moment, and can be applied to
 
 ### Built-in decentralized exchange
 Tao's roadmap includes a built-in decentralized exchange, in which a portion of fees will be added to the pool of epoch rewards. These fees could be substantial if there are many valuable tokens running on Tao. 
-This extra feature can increase the future earnings of the network, and raise TAOs price based on the P/E theory.
+This extra feature can increase the future earnings of the network, and raise TAO's price based on the P/E theory.
 
 ## Decentralized Governance
 
