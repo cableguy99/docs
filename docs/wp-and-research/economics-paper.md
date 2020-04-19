@@ -16,11 +16,11 @@ New scaling techniques such as sharding, EVM parallelisation, private-chain gene
 
 ### Scope
 
-This document describes Tao’s initial draft for the Tao blockchain’s economics system.
+This document describes Taos' initial draft for the Tao blockchain’s economics system.
 
 ## Masternodes
 
-- **Masternodes** are full-nodes that create, verify and validate new blocks in Tao’s platform. 
+- **Masternodes** are full-nodes that create, verify and validate new blocks in Taos' platform. 
 
 - **Masternode Candidate**: Any account can deposit 50K TAO using the official on-chain governance d-app to become a Masternode Candidate. 
 50K TAO deposit can earn staking rewards. 
