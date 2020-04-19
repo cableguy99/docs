@@ -326,7 +326,7 @@ In order to have a solid foundation for us to prove that our blockchain can achi
 
 To start, as we are dealing with a proof of stake consensus algorithm, we
 follow the way of formalization in the recent works in the literature
-like  [Cardano](#Cardano2017) and  [here](#Pass2017) and here [here](#PassCrypto2017). In particular, we
+like  [Cardano](#Cardano2017) and  [here](#Pass2017) and [here](#PassCrypto2017). In particular, we
 recall the following concepts and definitions that were presented
 in [Cardano](#Cardano2017) and adapt them to the context of Tao.
 
