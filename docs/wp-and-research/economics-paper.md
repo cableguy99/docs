@@ -33,7 +33,7 @@ A Masternode can resign, but the tokens  will be locked for the next 30 days aft
 
 ## Token Voting and Staking
 
--   **Token  voting**: Token holders can vote for Masternode Candidates by sending TAO to each Candidates specific voting address using the official governance d-app. Top 150 most voted Candidates will become Masternodes. 
+-   **Token  voting**: Token holders can vote for Masternode Candidates by sending TAO to each Candidates specific voting address using the official governance d-app. The top 150 most voted Candidates will become Masternodes. 
 Token holders can un-vote a Candidate, but the tokens will be locked for the next 48 hours (86,400  blocks) after the un-voting.   
 
 -   **Staking**: Masternode token  deposits, and all  tokens used to vote for Masternodes will enter the staking program and earn block rewards in each epoch, plus any fees. 
