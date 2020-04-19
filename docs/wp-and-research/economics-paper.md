@@ -60,7 +60,7 @@ The last portion of 10% called “Foundation Reward” goes to a special account
 
 ### Candidate/Masternode incentives
 
-Masternodes will receive a significant amount of block rewards, which likely exceeds the cost for running the infrastructure. 
+Masternodes will receive a significant amount of block rewards, which likely exceeds the cost of running the infrastructure. 
 However, Masternodes need to invest in Tao by depositing at least 50K Tao, and stake them for the long term. 
 Furthermore, after depositing 50K TAO to become a Candidate, if the account cannot become a Masternode (has less votes than the top 150 most voted Candidates), he/she will receive no rewards. 
 Therefore, Candidates have an incentive to do as much as they can such as signaling their capability to support Tao to get into top 150 most voted Candidates.
