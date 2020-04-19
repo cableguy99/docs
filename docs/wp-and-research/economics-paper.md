@@ -2,7 +2,7 @@
 
 ## Preface
 
-### Taos' vision and mission
+### Tao's vision and mission
 
 Our mission is to be a leading force in building the Internet of Value, and its infrastructure and applying it specifically towards addressing the pain points of the music economy. 
 We are working to create an alternative, scalable financial system which is more secure, transparent, efficient, inclusive and equitable for everyone.
