@@ -12,7 +12,7 @@ Tao relies on a system of 150 Masternodes with Delegated Proof of Stake (DPOS) c
 Security, stability and chain finality are guaranteed via novel techniques such as double validation, staking via smart-contracts and "true" randomization processes. 
 
 Tao supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers. 
-New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be continuously researched and incorporated into Tao's Masternode architecture which will be an ideal scalable smart-contract public blockchain for decentralized apps, token issuances and token integrations for stakeholders in the music economy of any size.
+New scaling techniques such as sharding, EVM parallelisation, private-chain generation and  hardware integration will be continuously researched and incorporated into Tao's Masternode architecture which will be an ideal scalable smart-contract public blockchain for decentralized apps, token issuances and token integrations for stakeholders in the music economy of any size.
 
 ### Scope
 
@@ -33,19 +33,19 @@ A Masternode can resign, but the tokens  will be locked for the next 30 days aft
 
 ## Token Voting and Staking
 
--   **Token  voting**: Token holders can vote for Masternode Candidates by sending TAO to each Candidate specific voting address using the official governance d-app. Top 150 most voted Candidates will become Masternodes. 
+-   **Token  voting**: Token holders can vote for Masternode Candidates by sending TAO to each Candidates specific voting address using the official governance d-app. Top 150 most voted Candidates will become Masternodes. 
 Token holders can un-vote a Candidate, but the tokens will be locked for the next 48 hours (86,400  blocks) after the un-voting.   
 
--   **Staking**: Masternode token  deposits, and all  tokens used to vote for Masternodes will enter staking program, and earn block rewards in each epoch, plus any fees. 
-Tokens used to vote for Candidates who do not become Masternodes will not earn staking reward.
+-   **Staking**: Masternode token  deposits, and all  tokens used to vote for Masternodes will enter the staking program and earn block rewards in each epoch, plus any fees. 
+Tokens used to vote for Candidates who do not become Masternodes will not earn staking rewards.
 
 ## Token Emission Schedule
 
 -   **Following the fundraising commitment**: The total amount of tokens at the genesis block is 55 million TAO tokens in circulation; 
-12 millions are reserved for the team vested over the next 4 years; 
-16 millions are reserved for strategic partners, and an ecosystem building fund which totals 83 millions tokens. 
-Plus, 17 millions are reserved as block rewards for the next 8 years, the amount of tokens  in circulation at the end of the 8th year  after the genesis block is around 100 million TAO. 
-After the mainnet: the block reward for the first and second year is  4 million TAO annually; the block reward for the 3rd, 4th, 5th year is 2 millions TAO annually ; and the block reward for the 6th, 7th and 8th year is 1 million TAO annually . 
+12 million are reserved for the team vested over the next 4 years; 
+16 million are reserved for strategic partners and an ecosystem building fund which totals 83 million tokens. 
+Plus, 17 million are reserved as block rewards for the next 8 years, the amount of tokens in circulation at the end of the 8th year after the genesis block is around 100 million TAO. 
+After the mainnet launch: the block reward for the first and second year is 4 million TAO annually; the block reward for the 3rd, 4th and 5th year is 2 million TAO annually; and the block reward for the 6th, 7th and 8th year is 1 million TAO annually. 
 Subsequently, the block reward will be halted, or activated at a number less than or equal to 1 million TAO annually.
 
 
@@ -54,54 +54,54 @@ Subsequently, the block reward will be halted, or activated at a number less tha
 Afterward, the reward achieved by each Masternode  will be divided into three portions. 
 The first portion of 40% called “Infrastructure Reward” goes to the Masternode. 
 The second portion of 50% called “Staking Reward” goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake. 
-The last portion of 10% called “Foundation Reward” goes to a special account controlled by the Masternode Foundation, which is run by Tao company initially. 
+The last portion of 10% called “Foundation Reward” goes to a special account controlled by the Masternode Foundation, which is run by the Tao community initially. 
 
 ## Voting/Staking Consideration
 
 ### Candidate/Masternode incentives
 
 Masternodes will receive a significant amount of block rewards, which likely exceeds the cost for running the infrastructure. 
-However, Masternodes need to invest in Tao by depositing  at least 50K Tao, and stake them for a long term. 
-Furthermore, after depositing 50K TAO to become a Candidate, if the account cannot become a Masternode (has less votes than Top  150 most voted  Candidates), he/she will receive no rewards. 
+However, Masternodes need to invest in Tao by depositing at least 50K Tao, and stake them for the long term. 
+Furthermore, after depositing 50K TAO to become a Candidate, if the account cannot become a Masternode (has less votes than the top 150 most voted Candidates), he/she will receive no rewards. 
 Therefore, Candidates have an incentive to do as much as they can such as signaling their capability to support Tao to get into top 150 most voted Candidates.
 
 ### Token voter incentives
 
-Token voters should vote for Candidates who signal a strong support for Tao because if the Candidate does not become a Masternode, voters will not receive any rewards. 
-However, token voters should also vote for the less voted Candidates because the most voted Candidates will receive less reward per token stake comparatively. 
+Token voters should vote for Candidates who signal strong support for Tao because if the Candidate does not become a Masternode, voters will not receive any rewards. 
+However, token voters should also vote for the less voted Candidates because the most voted Candidates will receive less rewards per token stake comparatively. 
 
 ## Long Term Platform Economics Consideration
 
 ### P/E theory of token value
 
 Equity price can often be a multiple of annual earnings a company generates. In the case of a blockchain platform, earnings could be considered as the total rewards and fees that the platform produces. 
-The multiples for technology startups in the early days could exceed 200 which is where Ethereum network is approximately at the moment.  
+The multiples for technology startups in the early days could exceed 200 which is where the Ethereum network is approximately at the moment.  
 
 ### Quantity theory of money for token value
 
 In this theory, the total amount of TAO can be considered the money supply for the blockchain economy including all the d-apps and tokens on top of Tao. 
 Assuming a constant price, and velocity of money, demand for money will raise proportionally to the total amount of activities of the whole blockchain network, which will raise the price of TAO if the supply of Tao is fixed, or the inflation rate is very small. 
-Tao’s advantages of minimal transaction fee, and very fast confirmation time could spur a massive amount of activities for Tao tokens, and other tokens on top of Tao.    
+Tao’s advantages of minimal transaction fees and very fast confirmation times could spur a massive amount of activity for Tao tokens, and other tokens running on top of Tao.    
 
 ### Store of value theory of token value
 
-Blockchain native tokens can be considered as the means of fundraising, or the store of value within their own blockchain economy if the supply of the token is fixed, or the inflation rate is very small, and predictable. 
-These conditions are applying to Ether and Bitcoin at the moment, and can be applying to TAO token in the future as the Tao’s economy grows. 
+Blockchain native tokens can be considered as the means of fundraising, or the store of value within their own blockchain economy if the supply of the token is fixed, or the inflation rate is very small and predictable. 
+These conditions apply to Ether and Bitcoin at the moment, and can be applied to TAO in the future as Taos economy grows. 
 
 ### Built-in decentralized exchange
-Tao roadmap includes a built-in decentralized exchange, in which a portion of fees will be added to the pool of epoch rewards. These fees could be substantial if there are many valuable tokens on top of Tao. 
-This extra feature can increase the future earnings of the network, and raise TAO price based on the P/E theory.
+Taos roadmap includes a built-in decentralized exchange, in which a portion of fees will be added to the pool of epoch rewards. These fees could be substantial if there are many valuable tokens on top of Tao. 
+This extra feature can increase the future earnings of the network, and raise TAOs price based on the P/E theory.
 
 ## Decentralized Governance
 
 ### Become a Masternode
 
-Becoming a Masternode is an important signal of long-term support for Tao platform. 
-We would welcome other entities to become a Masternode, to show their supports by helping the network, and gradually decentralize the platform governance.  
+Becoming a Masternode is an important signal of long-term support for the Tao platform. 
+We would welcome other entities to become a Masternode, to show their support by helping the network, and gradually decentralize the platform governance.  
 
 ### Board of Governors
 
-It is postulated that Tao platform would later be coordinated by non-profit body such as Board of Governors (or Foundation) amongst many other decentralized bodies which receive a steady amount of income from the network, and act solely in the interest of the network.
+It is postulated that the Tao platform would later be operated by a non-profit body such as a Board of Governors (or Foundation) amongst many other decentralized bodies which receive a steady amount of income from the network, and act solely in the interest of the network.
 
 ### Technical decision making
 
@@ -109,14 +109,14 @@ The technical decisions should be considered, debated, and decided upon by quali
 
 ### Economic decision making
 
-The economic decisions such as the amount of block rewards, inflation rate, the division of block rewards might be based on the consensus of majority of the Masternodes (with their voters). 
-Board of Governors could be one of the coordinating bodies for these activities using the official governance d-app.
+The economic decisions such as the amount of block rewards, inflation rate and the division of block rewards might be based on the consensus of the majority of the Masternodes (with their voters). 
+The Board of Governors could be one of the coordinating bodies for these activities using the official governance d-app.
 
 ## Appendix A: History of the Project
 
 Tao PTE. LTD. raised funds to build Tao blockchain platform in early 2018. 
 The ICO whitepaper is at https://goo.gl/avtnZ1. 
-The terms of sale and other documents can be found at  https://tao.network/exchanges Tao platform will be gradually decentralized in 2-8 years after the mainnet launch, and eventually become a secure public blockchain platform for everyone.
+The terms of sale and other documents can be found at  https://tao.network/exchanges the Tao platform will be gradually decentralized in 2-8 years after the mainnet launch, and eventually become a secure public blockchain platform for everyone.
 
 ## Appendix B: Reward Calculation Formula and Details
 
