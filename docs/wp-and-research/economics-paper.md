@@ -114,7 +114,7 @@ The Board of Governors could be one of the coordinating bodies for these activit
 
 ## <!--Appendix A: History of the Project
 
-<!--Tao PTE. LTD. raised funds to build Tao blockchain platform in early 2018. 
+Tao PTE. LTD. raised funds to build Tao blockchain platform in early 2018. 
 The ICO whitepaper is at https://goo.gl/avtnZ1. 
 The terms of sale and other documents can be found at  https://tao.network/exchanges the Tao platform will be gradually decentralized in 2-8 years after the mainnet launch, and eventually become a secure public blockchain platform for everyone.-->
 
