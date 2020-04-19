@@ -76,7 +76,7 @@ Token holders can vote at any time, by any number of votes (which is actually co
 
 For each iteration of 900 blocks (called an epoch), a checkpoint block is
 created, which implements only reward works. The masternode, which takes
-turn in the circular and sequential order to create blocks, has to scan
+its turn in the circular and sequential order to create blocks, has to scan
 all of the created blocks in the epoch and count the number of signatures.
 The reward mechanism is designed as follows: the
 higher the number of signatures one masternode has made, the more rewards it
