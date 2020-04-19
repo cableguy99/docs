@@ -324,7 +324,7 @@ Figure: [ChainMaking](#fig:ChainMaking) below.
 In order to have a solid foundation for us to prove that our blockchain can achieve what is claimed, we first present our preliminary formalizations of the concepts that will be used in our yellow paper later.
 
 
-To start, as we are dealing with proof of stake consensus algorithm, we
+To start, as we are dealing with a proof of stake consensus algorithm, we
 follow the way of formalization in the recent works in the literature
 like  [Cardano](#Cardano2017) and  [here](#Pass2017) and here [here](#PassCrypto2017). In particular, we
 recall the following concepts and definitions that were presented
