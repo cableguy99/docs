@@ -112,7 +112,7 @@ The technical decisions should be considered, debated, and decided upon by quali
 The economic decisions such as the amount of block rewards, inflation rate and the division of block rewards might be based on the consensus of the majority of the Masternodes (with their voters). 
 The Board of Governors could be one of the coordinating bodies for these activities using the official governance d-app.
 
-//## Appendix A: History of the Project
+/*## Appendix A: History of the Project*/
 
 Tao PTE. LTD. raised funds to build Tao blockchain platform in early 2018. 
 The ICO whitepaper is at https://goo.gl/avtnZ1. 
