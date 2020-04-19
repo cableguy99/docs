@@ -60,7 +60,7 @@ In addition to the voting system which is an improvement over the current Bitcoi
 
 Token holder is as simple as its name: users who join the network, who own and transfer TAO. Masternodes are full-nodes which maintain a copy of the blockchain, produce blocks and keep the chain consistent. It is worth noting that **Tao** is an extremely energy efficient cryptocurrency platform, as it does not use costly dedicated mining equiment as is required by Proof-of-Work-based blockchain systems.  Only masternodes can produce and validate blocks, and in a mechanism known as Delegated Proof of Stake.
 
-Masternodes are selected via where token holders vote for block producers via an amount of TAO called a Delegate. The first requirement of being masternodes is to deposit 100,000TAO to the Voting Smart Contract. These depositors are listed as masternode candidates in the Voting DApp, which allows token holders to vote for them by sending a Delegate to the smart contract in the name of that masternode.
+Masternodes are selected via where token holders vote for block producers via an amount of TAO called a Delegate. The first requirement of being masternodes is to deposit 100,000 TAO to the Voting Smart Contract. These depositors are listed as masternode candidates in the Voting DApp, which allows token holders to vote for them by sending a Delegate to the smart contract in the name of that masternode.
 
 Masternodes which process valid states to create and verify blocks will be incentivized with TAO. Furthermore, token holders who vote for these incentivized masternodes will also receive TAO in proportion to the amount of their Delegate. 
 
