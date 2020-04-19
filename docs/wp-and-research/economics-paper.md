@@ -7,8 +7,8 @@
 Our mission is to be a leading force in building the Internet of Value, and its infrastructure and applying it specifically towards addressing the pain points of the music economy. 
 We are working to create an alternative, scalable financial system which is more secure, transparent, efficient, inclusive and equitable for everyone.
 
-Tao is an innovative solution to the scalability problem with the Tao 1.0 blockchain. 
-Tao relies on a system of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus that can support near-zero fee, and 2-second transaction confirmation time. 
+Tao2 is an innovative solution to the scalability problem with the Tao 1.0 blockchain. 
+Tao2 relies on a system of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus that can support near-zero fee, and 2-second transaction confirmation time. 
 Security, stability and chain finality are guaranteed via novel techniques such as double validation, staking via smart-contracts and "true" randomization processes. 
 
 Tao supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers. 
