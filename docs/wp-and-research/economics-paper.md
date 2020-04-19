@@ -79,7 +79,7 @@ The multiples for technology startups in the early days could exceed 200 which i
 
 ### Quantity theory of money for token value
 
-In this theory, the total amount of TAO can be considered the money supply for the blockchain economy including all the d-apps and tokens on top of Tao. 
+In this theory, the total amount of TAO can be considered the money supply for the blockchain economy including all the d-apps and tokens running on top of Tao. 
 Assuming a constant price, and velocity of money, demand for money will raise proportionally to the total amount of activities of the whole blockchain network, which will raise the price of TAO if the supply of Tao is fixed, or the inflation rate is very small. 
 Tao’s advantages of minimal transaction fees and very fast confirmation times could spur a massive amount of activity for Tao tokens, and other tokens running on top of Tao.    
 
