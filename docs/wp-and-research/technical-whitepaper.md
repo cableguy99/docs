@@ -30,7 +30,7 @@ With these lessons now learned, the Tao cryptocurrency protocol will be upgraded
 -   Additional randomization to guarantee fairness and prevent handshaking and Sybil attacks
 -   Fast confirmation time and efficient, decentralized checkpoints for transaction finality and minimal potential rebase
 
-To start dealing with these problems, in this paper, we present an overview architectural design of **Tao**’s masternode design called "Shifu". In particular, we propose Delegated Proof of Stake (DPOS) consensus, a Proof-of-Stake (PoS)-based blockchain protocol with a fair voting mechanism, rigorous security guarantees and fast finality. This presents a novel reward mechanism which, with this mechanism, the blockchain has a low probability of forks, fast confirmation times, plus the contributions and benefits of masternodes are fair in the sense that the division of rewards is a fair probabilistic computation.
+To start dealing with these problems, in this paper, we present an overview architectural design of **Tao**’s masternode design called "Shifu". In particular, we propose Delegated Proof of Stake (DPOS) consensus, a Proof-of-Stake (PoS)-based blockchain protocol with a fair voting mechanism, rigorous security guarantees and fast finality. This presents a novel reward mechanism which, with this mechanism, the blockchain has a low probability of forks and fast confirmation times, plus the contributions and benefits of masternodes are fair in the sense that the division of rewards is a fair probabilistic computation.
 
 ### Structure of the remainder of the paper
 
