@@ -108,7 +108,7 @@ high-speed network connectivity in order to ensure the required block
 time (target to two seconds). Only masternodes can produce and seal
 blocks. In order for that, the **Tao** consensus relies on the concept of
 **Random Generals** that improves some existing consensus mechanisms,
-namely **Single Validation**. In the following, we first describe the
+namely **Single Validation**. In the following, we first describe
 **Random Generals**, then analyze the differences and improvements of
 **Random Generals** compared to **Single Validation**.
 
