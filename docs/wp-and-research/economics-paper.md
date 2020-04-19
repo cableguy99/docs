@@ -2,7 +2,7 @@
 
 ## Preface
 
-### Tao's vision and mission
+### Taos' vision and mission
 
 Our mission is to be a leading force in building the Internet of Value, and its infrastructure and applying it specifically towards addressing the pain points of the music economy. 
 We are working to create an alternative, scalable financial system which is more secure, transparent, efficient, inclusive and equitable for everyone.
@@ -81,7 +81,7 @@ The multiples for technology startups in the early days could exceed 200 which i
 
 In this theory, the total amount of TAO can be considered the money supply for the blockchain economy including all the d-apps and tokens running on Tao. 
 Assuming a constant price and velocity of money, demand will rise proportionally to the total amount of activity of the whole blockchain network, which will raise the price of TAO if the supply is fixed or the inflation rate is very small. 
-Taos' advantages of minimal transaction fees and very fast confirmation times could spur a massive amount of activity for TAO itself and all tokens running on Tao.    
+Taos' advantages of minimal transaction fees and very fast confirmation time could spur a massive amount of activity for TAO itself and all tokens running on Tao.    
 
 ### Store of value theory of token value
 
@@ -113,7 +113,7 @@ The economic decisions such as the amount of block rewards, inflation rate and t
 The Board of Governors could be one of the coordinating bodies for these activities using the official governance d-app.
 
 <!--## Appendix A: History of the Project
-
+aos' advantages of minimal transaction fees and very fast confirmation times could spur a 
 Tao PTE. LTD. raised funds to build Tao blockchain platform in early 2018. 
 The ICO whitepaper is at https://goo.gl/avtnZ1. 
 The terms of sale and other documents can be found at  https://tao.network/exchanges the Tao platform will be gradually decentralized in 2-8 years after the mainnet launch, and eventually become a secure public blockchain platform for everyone.-->
