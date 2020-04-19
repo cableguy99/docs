@@ -16,11 +16,11 @@ New scaling techniques such as sharding, EVM parallelisation, private-chain gene
 
 ### Scope
 
-This document describes Taos' initial draft for the Tao blockchain’s economics system.
+This document describes Tao's initial draft for the Tao blockchain’s economics system.
 
 ## Masternodes
 
-- **Masternodes** are full-nodes that create, verify and validate new blocks in Taos' platform. 
+- **Masternodes** are full-nodes that create, verify and validate new blocks in Tao's platform. 
 
 - **Masternode Candidate**: Any account can deposit 50K TAO using the official on-chain governance d-app to become a Masternode Candidate. 
 50K TAO deposit can earn staking rewards. 
@@ -81,7 +81,7 @@ The multiples for technology startups in the early days could exceed 200 which i
 
 In this theory, the total amount of TAO can be considered the money supply for the blockchain economy including all the d-apps and tokens running on Tao. 
 Assuming a constant price and velocity of money, demand will rise proportionally to the total amount of activity of the whole blockchain network, which will raise the price of TAO if the supply is fixed or the inflation rate is very small. 
-Taos' advantages of minimal transaction fees and very fast confirmation time could spur a massive amount of activity for TAO itself and all tokens running on Tao.    
+Tao's advantages of minimal transaction fees and very fast confirmation time could spur a massive amount of activity for TAO itself and all tokens running on Tao.    
 
 ### Store of value theory of token value
 
