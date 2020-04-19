@@ -97,7 +97,7 @@ This extra feature can increase the future earnings of the network, and raise TA
 ### Become a Masternode
 
 Becoming a Masternode is an important signal of long-term support for the Tao platform. 
-We would welcome other entities to become a Masternode, to show their support by helping the network, and gradually decentralize the platform governance.  
+We would welcome other entities to become Masternodes, to show their support by helping the network, and gradually decentralize the platform governance.  
 
 ### Board of Governors
 
