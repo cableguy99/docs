@@ -26,7 +26,7 @@ This document describes Tao's initial draft for the Tao blockchain’s economics
 50K TAO deposit can earn staking rewards. 
 A Candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation. 
 
-- **Becoming a Masternode**: A Candidate becomes a Masternode when the user belongs to top 150 most voted Candidates in each epoch. 
+- **Becoming a Masternode**: A Candidate becomes a Masternode when the user belongs to the top 150 most voted Candidates in each epoch. 
 A Masternode can resign, but the tokens  will be locked for the next 30 days after the resignation.
 
 - **Reward**: The reward a Masternode receives in each epoch is proportional to the number of signatures he/she  signs.
