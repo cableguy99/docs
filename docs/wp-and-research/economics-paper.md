@@ -86,10 +86,10 @@ Tao's advantages of minimal transaction fees and very fast confirmation time cou
 ### Store of value theory of token value
 
 Blockchain native tokens can be considered as the means of fundraising, or the store of value within their own blockchain economy if the supply of the token is fixed, or the inflation rate is very small and predictable. 
-These conditions apply to Ether and Bitcoin at the moment, and can be applied to TAO in the future as Taos economy grows. 
+These conditions apply to Ether and Bitcoin at the moment, and can be applied to TAO in the future as Tao's economy grows. 
 
 ### Built-in decentralized exchange
-Taos roadmap includes a built-in decentralized exchange, in which a portion of fees will be added to the pool of epoch rewards. These fees could be substantial if there are many valuable tokens running on Tao. 
+Tao's roadmap includes a built-in decentralized exchange, in which a portion of fees will be added to the pool of epoch rewards. These fees could be substantial if there are many valuable tokens running on Tao. 
 This extra feature can increase the future earnings of the network, and raise TAOs price based on the P/E theory.
 
 ## Decentralized Governance
