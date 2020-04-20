@@ -34,7 +34,7 @@ To start dealing with these problems, in this paper, we present an overview arch
 
 ### Structure of the remainder of the paper
 
-* Section [Shifu Protocol (Masternode) Design](#Sec:MasternodeDesign): explains the intuition ideas and overview architectural design of the Delegated Proof of Stake consensus mechanism, framework and background protocols that help mass readers (e.g., investors, traders, others) who may not have the technical knowledge to understand our mechanism easily.
+* Section [Shifu Protocol (Masternode) Design](#Sec:MasternodeDesign): explains the intuition ideas and overall architectural design of the Delegated Proof of Stake consensus mechanism, framework and background protocols that help mass readers (e.g., investors, traders, others) who may not have the technical knowledge to understand our mechanism easily.
 * Section [Stakeholders, Delegates, & Voting](#Sec:StakeVoting) presents **Tao** stakeholder policy, masternode candidate delegate voting systems, and reward mechanism.
 * Section [Tao consensus protocol](#Sec:ProtocolOverview) explains the motivation and Random Generals process as well as finality checkpoint of the protocol.
 * In Section [Protocol formalizations](#Sec:ProtocolFormalization), we present the formalization of our model in a mathematical way to show the soundness of our model and protocol.
