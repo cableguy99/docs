@@ -15,9 +15,9 @@ The distributed systems which currently dominate the music economy have been res
 -   **Trust** While the systems are trustless, those who create them are not.  As a result, existing music economy stakeholders from across the spectrum have rejected those platforms such as Ethereum for anything more than experimental use.
 
 The Tao project began life in 2015 by directly engaging the most significant music industry stakeholders in order to gain their input as to the pain points present in their industry with the goal of potentially solving them with blockchain technology.  The Tao 1.0 cryptocurrency was launched in 2016 based on these conversations with specific features which were desired by the music industry:
--   **Proof of Stake** Allowing for artists, producers, and labels to participate in network consensus
--   **Masternodes** Allowing for the instant settlement of transactions and enhancing Layer 1 consensus
--   **Tokenization** Allowing for the digital representation of paper contracts as well as advanced automation
+-   **Proof of Stake** – Allowing for artists, producers, and labels to participate in network consensus
+-   **Masternodes** – Allowing for the instant settlement of transactions and enhancing Layer 1 consensus
+-   **Tokenization** – Allowing for the digital representation of paper contracts as well as advanced automation
 -   **Community** – Providing clear focus and dedication to serving the needs of the music industry, while directly engaging fans and artists alike
 
 While these goals were achieved, certain other important aspects of cryptocurrency adoption were neglected.
