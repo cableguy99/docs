@@ -86,8 +86,8 @@ masternode B does.
 
 Furthermore, there is also a reward sharing ratio among token holders and
 masternodes who have been elected supported by the token holders.
-Specifically, each epoch consists of 900 blocks, which will reward a total of 250 TAO in the first two years.
-This amount of 250 TAO will be divided among all of the Masternodes proportionally to the number of signatures they sign during the epoch.
+Specifically, each epoch consists of 360 blocks, which will reward a total of 360 TAO in the first two years.
+This amount of 360 TAO will be divided among all of the Masternodes proportionally to the number of signatures they sign during the epoch.
 
 Afterward, the rewards achieved by each Masternode  will be divided into three portions.
 -   **Infrastructure Reward**: The first portion of 40% called **Infrastructure Reward** goes to the Masternode.
