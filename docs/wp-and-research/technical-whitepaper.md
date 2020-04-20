@@ -475,7 +475,7 @@ the next block.
 
 Masternodes are encouraged to run in well-known public cloud providers
 such as AWS, Google Cloud or Microsoft Azure which provides multiple
-DDOS prevention mechanisms. Even in case that some nodes are attacked or
+DDOS prevention mechanisms. Even if some nodes are attacked or
 fail-stop, the network still works correctly as long as the number of
 failing and/or attacked nodes is less than 1/4 of the number of
 masternodes.
@@ -483,8 +483,8 @@ masternodes.
 ### Spam Attack {#spam-attack .unnumbered}
 
 **Tao** keeps the same transaction fee mechanism as Ethereum which is indicated
-via gasPrice. However, **Tao** supports minimum transaction fee (at 1 wei),
-which somehow enables spamming that attacker tries to broadcast a huge
+via gasPrice. However, **Tao** supports minimum transaction fees (at 1 Wei),
+which may lead to spamming, ie: an attacker tries to broadcast a huge
 amount of low fee transactions to the system. However, **Tao** masternodes
 always sort transactions and pick up only high fee transactions into the
 proposing block. Thus, spammers have little chance to harm the system.
@@ -524,7 +524,7 @@ create, verify and vote for blocks smoothly and efficiently. Whenever
 potentials of fork branches are detected, we employ the idea in PoW to
 select the longest branch with the most votes and discard the other
 branches. This hybrid approach not only increases the
-performance and security of blockchain, but also reduces the fork
+performance and security of the blockchain, but also reduces the fork
 situation in an efficient and practical manner.
 
 Recently, there are several consensus protocol research works that are
@@ -588,7 +588,7 @@ distribution function is uniform eventually.
     achieved, in which the cost of running the network infrastructure
     could be offset by the revenues generated. In this context, the cost
     of network infrastructure consists of two parts: the physical cost
-    of having hardware such as servers, memories that passes the network
+    of having hardware such as servers, memory that passes the network
     technical requirements; and the capital cost of having TAO locked
     into smart-contracts. The revenues for Masternodes would primarily
     come from Reward Engine emission, and later on from service revenues
