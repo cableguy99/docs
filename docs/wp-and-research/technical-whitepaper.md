@@ -413,19 +413,19 @@ other masternodes will refuse it.
 ### Censorship Attack {#censorship-attack .unnumbered}
 
 If there are more than $\frac{3}{4}$ malicious masternodes in **Tao**,
-censorship attack might happen. For example, these masternodes refuse
-valid blocks or simply become inactive. In this case, chain is stuck.
+a censorship attack might happen. For example, these masternodes refuse
+valid blocks or simply become inactive. In this case, the chain is stuck.
 
 In fact, masternodes are paid for their effort of correctly working so
 that the chain is actively updated in a consistent manner. More
-importantly, becoming masternode means a certain amount of tokens is
+importantly, becoming a masternode means a certain amount of tokens are
 locked, 50 000 TAO in particular. As a result, in order to control
 more than$\frac{3}{4}$ masternodes, attackers must hold a considerable
 amount of TAO and gain huge support from token holders. And because of
 this, the attackers do not have incentives to do any malicious action to
 harm the chain.
 
-However, in worst case, **Tao** has to do a soft fork in order to reduce number
+However, in the worst case, **Tao** has to do a soft fork in order to reduce the number
 of masternodes to keep the chain running and figure out slasher
 mechanisms for those malicious masternodes.
 
