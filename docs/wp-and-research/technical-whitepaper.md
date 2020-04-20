@@ -392,7 +392,7 @@ a fork for double spending.
 
 Let’s look back how **Tao** handles these two problems. As a reminder, **Tao** maintains
 a certain order of masternodes in creating and sealing blocks, in each
-epoch. For the first issue, random/arbitrary forks are hardly happened
+epoch. For the first issue, random/arbitrary forks are unlikely
 because the order of block creation masternodes is pre-determined for
 each epoch. Furthermore, the Random Generals mechanism eliminates the
 second issue because even one malicious masternode creates two blocks at
