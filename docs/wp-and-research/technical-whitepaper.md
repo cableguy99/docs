@@ -332,7 +332,7 @@ in [Cardano](#Cardano2017) and adapt them to the context of Tao.
 
 ### Time, Slots, Epoch {#time-slots-epoch .unnumbered}
 As previously described, ideally, each epoch is divided into 900 block time, that is called block slot.
-Only one block can be created in a slot. We assume that there is a roughly synchronized clock that allows for masternodes to learn the current slot. This simplification will effectively permit masternodes to execute the signing and validation process of the DPOS consensus, where each masternode must collectively create a block to the current slot. For more simplification, each slot $sl_r$ is accessed by an integer $r \in \{1, 2, ...900\}$, and suppose that the real time window that corresponds to each slot has the following properties, which are similar to what are specified in [Cardano](#Cardano2017).
+Only one block can be created in a slot. We assume that there is a roughly synchronized clock that allows for masternodes to learn the current slot. This simplification will effectively permit masternodes to execute the signing and validation process of the DPOS consensus, where each masternode must collectively create a block to the current slot. For more simplification, each slot $sl_r$ is accessed by an integer $r \in \{1, 2, ...360\}$, and suppose that the real time window that corresponds to each slot has the following properties, which are similar to what are specified in [Cardano](#Cardano2017).
 
 1. Every masternode can determine the index of the current slot based on the current time and ”any discrepancies between parties’ local time are insignificant in comparison with the length of time represented by a slot” [Cardano](#Cardano2017)
 
