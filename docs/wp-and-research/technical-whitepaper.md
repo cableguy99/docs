@@ -105,7 +105,7 @@ It is worth noting that coin-holders who unvote before the checkpoint block will
 In Tao, masternodes share equal responsibility to run the system and keep
 it stable. Full nodes should run on powerful hardware configuration and
 high-speed network connectivity in order to ensure the required block
-time (target to two seconds). Only masternodes can produce and seal
+time (target to five seconds). Only masternodes can produce and seal
 blocks. In order for that, the **Tao** consensus relies on the concept of
 **Random Generals** that improves some existing consensus mechanisms,
 namely **Single Validation**. In the following, we first describe
@@ -355,7 +355,7 @@ corresponding to the masternode $V_i$ generating the block.
 
 ![al 1](/assets/al1.png)
 
-As mentioned earlier, in our **Tao** model, we set each time *slot* $sl_i$ as 2
+As mentioned earlier, in our **Tao** model, we set each time *slot* $sl_i$ as 5
 seconds; an epoch is a set $R$ of 900 slots
 $\{ sl_1, sl_2, ..., sl_{900}\}$ (an epoch time duration equals to 1800
 seconds).
