@@ -458,8 +458,8 @@ chains. Table \[table:chainid\] shows recognized $CHAIN\_ID$s.
 Safety implies having a single agreed upon chain where there are not two
 or more competing chains with valid transactions in either (see [here](#Safety). A
 consensus protocol can be *safe* when blocks have settlement finality,
-or else probabilistic finality. This last sentence reveals that can
-provide safety because it has a settlement finality.
+or else probabilistic finality. This last sentence reveals that **Tao** can
+provide safety because it has settlement finality.
 
 A consensus protocol is considered *live* if it can eventually propagate
 and make valid transactions onto the blockchain (see [here](#Safety). An occurrence
@@ -467,7 +467,7 @@ of a liveness fault is when transaction omission, information
 withholding, or message reordering, among a number of violations are
 observed. This type of fault is unlikely to happen in **Tao** because the block
 creation masternodes list is ordered in a pre-determined way for each
-epoch, thus if even an attacking masternode omits some transactions, the
+epoch, thus even if an attacking masternode omits some transactions, the
 latter will be processed and validated by the next honest masternode in
 the next block.
 
