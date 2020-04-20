@@ -419,7 +419,7 @@ valid blocks or simply become inactive. In this case, the chain is stuck.
 In fact, masternodes are paid for their effort of correctly working so
 that the chain is actively updated in a consistent manner. More
 importantly, becoming a masternode means a certain amount of tokens are
-locked, 50 000 TAO in particular. As a result, in order to control
+locked, 100,000 TAO in particular. As a result, in order to control
 more than$\frac{3}{4}$ masternodes, attackers must hold a considerable
 amount of TAO and gain huge support from token holders. And because of
 this, the attackers do not have incentives to do any malicious action to
