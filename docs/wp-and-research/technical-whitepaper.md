@@ -331,7 +331,7 @@ recall the following concepts and definitions that were presented
 in [Cardano](#Cardano2017) and adapt them to the context of Tao.
 
 ### Time, Slots, Epoch {#time-slots-epoch .unnumbered}
-As previously described, ideally, each epoch is divided into 900 block time, that is called block slot.
+As previously described, ideally, each epoch is divided into 360 block time, that is called block slot.
 Only one block can be created in a slot. We assume that there is a roughly synchronized clock that allows for masternodes to learn the current slot. This simplification will effectively permit masternodes to execute the signing and validation process of the DPOS consensus, where each masternode must collectively create a block to the current slot. For more simplification, each slot $sl_r$ is accessed by an integer $r \in \{1, 2, ...360\}$, and suppose that the real time window that corresponds to each slot has the following properties, which are similar to what are specified in [Cardano](#Cardano2017).
 
 1. Every masternode can determine the index of the current slot based on the current time and ”any discrepancies between parties’ local time are insignificant in comparison with the length of time represented by a slot” [Cardano](#Cardano2017)
@@ -356,8 +356,8 @@ corresponding to the masternode $V_i$ generating the block.
 ![al 1](/assets/al1.png)
 
 As mentioned earlier, in our **Tao** model, we set each time *slot* $sl_i$ as 5
-seconds; an epoch is a set $R$ of 900 slots
-$\{ sl_1, sl_2, ..., sl_{900}\}$ (an epoch time duration equals to 1800
+seconds; an epoch is a set $R$ of 360 slots
+$\{ sl_1, sl_2, ..., sl_{360}\}$ (an epoch time duration equals to 1800
 seconds).
 
 In summary, the consensus protocol of **Tao** can be formalized in Algorithm ValidatorGeneration. The Algorithm ValidatorGeneration is simulated and explained as a
