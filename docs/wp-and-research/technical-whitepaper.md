@@ -395,19 +395,19 @@ a certain order of masternodes in creating and sealing blocks in each
 epoch. For the first issue, random/arbitrary forks are unlikely
 because the order of block creation masternodes is pre-determined for
 each epoch. Furthermore, the Random Generals mechanism eliminates the
-second issue because even one malicious masternode creates two blocks at
+second issue because even if one malicious masternode creates two blocks at
 his turn, only one block then can be validated by the second randomly
 selected masternode.
 
 ## Long-range attack {#long-range-attack .unnumbered}
 
-In **Tao**, block is valid only if it collects double validation and finalized
+In **Tao**, a block is valid only if it collects double validation and finalized
 once $\frac{3}{4}$ of masternodes verify. Therefore, as long as the
-number of attackers or malicious nodes and/or fail-stop nodes is less
+number of attackers or malicious nodes and/or fail-stop nodes is less or 
 equal than $\frac{1}{4}$ the number of masternodes, the number of
 masternodes signing a block is at least $\frac{3}{4}$ the total number
 of masternodes, which makes the block finalized. Thus, there is no
-chance for one malicious masternode to create longer valid chain because
+chance for one malicious masternode to create a longer valid chain because
 other masternodes will refuse it.
 
 ### Censorship Attack {#censorship-attack .unnumbered}
