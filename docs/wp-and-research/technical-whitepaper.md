@@ -375,7 +375,7 @@ like 51% attacks in PoW algorithms. PoW-based miners require CapEx
 OpEx (operation expenditures) such as electricity to solve mathematical
 puzzles securing the network (see [here](#capex)). That means, there is always an
 intrinsic cost for miners in mining regardless of its success. In case
-of a fork, miners therefore always allocate their resources (equipment and power)
+of a fork, miners therefore always allocate their resources (equipment and electricity)
 to the chain that they believe is correct in order to get incentives for
 compensating the intrinsic costs in mining.
 
