@@ -375,13 +375,13 @@ like 51% attacks in PoW algorithms. PoW-based miners require CapEx
 OpEx (operation expenditures) such as electricity to solve mathematical
 puzzles securing the network (see [here](#capex)). That means, there is always an
 intrinsic cost for miners in mining regardless of its success. In case
-of a fork, miners therefore always allocate their resource (equipment)
+of a fork, miners therefore always allocate their resources (equipment and power)
 to the chain that they believe is correct in order to get incentives for
 compensating the intrinsic costs in mining.
 
-In the contrary, in PoS-based systems without mining, during an ideal
-execution, for creating a fork only costs, masternodes actually do not
-incur intrinsic costs, other than roughly some block validation and
+To the contrary, in PoS-based systems without mining, during an ideal
+execution for creating a fork, masternodes do not
+incur intrinsic costs, other than  some block validation and
 signing cost. As a result, there’s an inherent problem of the masternode
 having no downside to staking both forks. Therefore, there are actually
 two issues in the original design of PoS. On one hand, for any
