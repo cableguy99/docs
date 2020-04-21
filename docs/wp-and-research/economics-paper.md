@@ -50,8 +50,8 @@ After the mainnet launch: the block reward for the first and second year is 6 mi
 Subsequently, the block reward will be halted, or activated at a number less than or equal to 1 million TAO annually.
 
 
--   **Implementation**: Each epoch consists of 900 blocks, which will reward a total of 250 TAO in the first two years. 
-250 TAO will be divided to all the Masternodes proportional to the number of signatures they sign during the epoch. 
+-   **Implementation**: Each epoch consists of 360 blocks, which will reward a total of 360 TAO in the first two years. 
+360 TAO will be divided to all the Masternodes proportional to the number of signatures they sign during the epoch. 
 Afterward, the reward achieved by each Masternode  will be divided into three portions. 
 The first portion of 40% called “Infrastructure Reward” goes to the Masternode. 
 The second portion of 50% called “Staking Reward” goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake. 
@@ -62,8 +62,8 @@ The last portion of 10% called “Foundation Reward” goes to a special account
 ### Candidate/Masternode incentives
 
 Masternodes will receive a significant amount of block rewards, which likely exceeds the cost of running the infrastructure. 
-However, Masternodes need to invest in Tao by depositing at least 50K Tao, and stake them for the long term. 
-Furthermore, after depositing 50K TAO to become a Candidate, if the account cannot become a Masternode (has less votes than the top 150 most voted Candidates), he/she will receive no rewards. 
+However, Masternodes need to invest in Tao by depositing at least 100K Tao, and stake them for the long term. 
+Furthermore, after depositing 100K TAO to become a Candidate, if the account cannot become a Masternode (has less votes than the top 150 most voted Candidates), he/she will receive no rewards. 
 Therefore, Candidates have an incentive to do as much as they can such as signaling their capability to support Tao to get into top 150 most voted Candidates.
 
 ### Token voter incentives
