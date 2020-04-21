@@ -249,23 +249,23 @@ Therefore, $R_1 = R_2 = .. = R_{150} = R = X/150 = 1.6667$ TAO
 
 #### Reward per epoch:
 
--   MN infrastructure reward = 0.4 * 1.6667 = 0.6667 TAO
+-   MN infrastructure reward = 1 * 1.6667 = 1.6667 TAO
 
 -   For Voter with 1k voted = (0.5 * 1.6667 * 1000) / 133 333 = 0.00625 TAO
     
--   MN staking reward with 50k deposited: 50 * 0.00625 = 0.3125 TAO
+-   MN staking reward with 100k deposited: 100 * 0.00625 = 0.625 TAO
 
 #### Reward per week: 
 
--   MN infrastructure reward = 336 * 0.6667 = 224 TAO
+-   MN infrastructure reward = 336 * 1.6667 = 560 TAO
 
 -   For Voter with 1k voted = 336 * 0.00625 = 2.1 TAO
    
--   MN staking reward with D = 50k deposited: 336 * 0.3125 = 105 TAO
+-   MN staking reward with D = 100k deposited: 336 * 0.625 = 210 TAO
 
 #### Reward per year: 
    
--   MN infrastructure reward = 17520 * 0.6667 = 11 680 TAO
+-   MN infrastructure reward = 17520 * 1.6667 = 11 680 TAO
    
 -   For Voter with 1k voted = 17520 * 0.00625 = 109.5 TAO
    
