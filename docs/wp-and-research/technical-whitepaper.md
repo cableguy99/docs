@@ -594,7 +594,7 @@ distribution function is uniform eventually.
     come from Reward Engine emission, and later on from service revenues
     such as token exchange fees provided by applications running on top
     of Tao. We will publish a Tao economic analysis and
-    proposal, separate from this technical paper in a later date.
+    proposal, separate from this technical paper at a later date.
 
 ## References {#Sec:References}
 
