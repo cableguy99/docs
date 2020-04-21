@@ -181,29 +181,29 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 5$ TAO
 
 #### Reward per epoch:
 
--   MN infrastructure reward = 0.4 * 5 = 2 TAO
+-   MN infrastructure reward = 1 * 5 = 5 TAO
 
 -   For Voter with 1k voted = (0.5 * 5 * 1000) / 100k = 0.025 TAO
 
--   MN staking reward with 50k TAO deposited: 50 * 0.025 = 1.25 TAO
+-   MN staking reward with 100k TAO deposited: 100 * 0.025 = 2.5 TAO
 
 #### Reward per week: 
    
--   MN infrastructure reward = 336 * 2 = 672 TAO
+-   MN infrastructure reward = 336 * 5 = 1680 TAO
    
 -   For Voter with 1k voted = 336 * 0.025 = 8.4 TAO
    
--   MN staking reward with D = 50k TAO deposited: 336 * 1.25 = 420 TAO
+-   MN staking reward with D = 100k TAO deposited: 336 * 2.5 = 840 TAO
 
 #### Reward per year: 
    
--   MN infrastructure reward = 17520 * 2 = 35 040 TAO
+-   MN infrastructure reward = 17520 * 5 = 87600 TAO
 
 -   For Voter with 1k voted = 17520 * 0.025 = 438 TAO
 
--   MN staking reward with 50k deposited: 17520 * 1.25 = 21900 TAO
+-   MN staking reward with 100k deposited: 17520 * 2.5 = 43800 TAO
 
--   Total reward per MN with D = 50k deposited: 35 040 + 21 900 = 56940 TAO
+-   Total reward per MN with D = 100k deposited: 87600 + 43800 = 131400 TAO
 
 ### Scenario 2: 100 Masternodes, 3 million token voting, a total of 8 million token locked.
 
@@ -215,11 +215,11 @@ Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 2.5$ TAO
 
 #### Reward per epoch:
     
--   MN infrastructure reward = 0.4 * 2.5 = 1 TAO
+-   MN infrastructure reward = 1 * 2.5 = 2.5 TAO
 
 -   For Voter with 1k voted = (0.5 * 2.5 * 1000) / 80k = 0.015625
 
--   MN staking reward with D = 50k deposited: 50 * 0.015625 = 0.78125 TAO
+-   MN staking reward with D = 100k deposited: 100 * 0.015625 = 1.5625 TAO
 
 #### Reward per week: 
    
@@ -227,7 +227,7 @@ Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 2.5$ TAO
    
 -   For Voter with 1k voted = 336 * 0.015625 = 5.25 TAO
    
--   MN staking reward with D = 50k deposited: 336 * 0.78125 = 262.5 TAO
+-   MN staking reward with D = 100k deposited: 336 * 1.5625 = 262.5 TAO
 
 #### Reward per year: 
 
