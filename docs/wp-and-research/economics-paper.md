@@ -158,7 +158,7 @@ Reward per year (48 * 365 = 17520 epochs):
 
 -   Masternode staking reward: 			17520 * $\frac{0.5R_i*D_i}{S_i}$
 
--   Total reward for a masternode:		17520 * 0.4$R_i$ + 17520 * $\frac{0.5R_i*D_i}{S_i}$
+-   Total reward for a masternode:		17520 * 1$R_i$ + 17520 * $\frac{0.5R_i*D_i}{S_i}$
 
 ### Applying the reward calculation formula to specific scenarios 
 
