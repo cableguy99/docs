@@ -136,7 +136,7 @@ Reward divided to Masternode $M_i$: 			$R_i = \frac{C_i*X}{\sum_{i=1}^{N}C_i}$
 
 Reward per epoch:   
 
--   Masternode infrastructure reward: 		0.4$R_i$
+-   Masternode infrastructure reward: 		1$R_i$
 
 -   Voter with 1k voted TAO: 				$\frac{0.5R_i*1000}{S_i}$
 
@@ -144,7 +144,7 @@ Reward per epoch:
 
 Reward per week (48 * 7 = 336 epochs):
 	
--   Masternode infrastructure reward: 		336 * 0.4$R_i$
+-   Masternode infrastructure reward: 		336 * 1$R_i$
 
 -   Voter with 1k voted TAO: 				336 * $\frac{0.5R_i*1000}{S_i}$
 
@@ -152,7 +152,7 @@ Reward per week (48 * 7 = 336 epochs):
 
 Reward per year (48 * 365 = 17520 epochs):
 
--   Masternode infrastructure: 				17520 * 0.4$R_i$
+-   Masternode infrastructure: 				17520 * 1$R_i$
 
 -   Voter with 1k voted TAO:				17520 * $\frac{0.5R_i*1000}{S_i}$
 
