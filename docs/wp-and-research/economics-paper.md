@@ -23,8 +23,8 @@ This document describes Tao's initial draft for the Tao blockchain’s economics
 
 - **Masternodes** are full-nodes that create, verify and validate new blocks in Tao's platform. 
 
-- **Masternode Candidate**: Any account can deposit 50K TAO using the official on-chain governance d-app to become a Masternode Candidate. 
-50K TAO deposit can earn staking rewards. 
+- **Masternode Candidate**: Any account can deposit 100K TAO using the official on-chain governance d-app to become a Masternode Candidate. 
+100K TAO deposit can earn staking rewards. 
 A Candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation. 
 
 - **Becoming a Masternode**: A Candidate becomes a Masternode when the user belongs to the top 150 most voted Candidates in each epoch. 
