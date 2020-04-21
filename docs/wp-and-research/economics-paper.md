@@ -46,7 +46,7 @@ Tokens used to vote for Candidates who do not become Masternodes will not earn s
 12 million are reserved for the team vested over the next 4 years; 
 16 million are reserved for strategic partners and an ecosystem building fund which totals 83 million tokens. 
 Plus, 17 million are reserved as block rewards for the next 8 years, the amount of tokens in circulation at the end of the 8th year after the genesis block is around 100 million TAO. 
-After the mainnet launch: the block reward for the first and second year is 4 million TAO annually; the block reward for the 3rd, 4th and 5th year is 2 million TAO annually; and the block reward for the 6th, 7th and 8th year is 1 million TAO annually. 
+After the mainnet launch: the block reward for the first and second year is 6 million TAO annually; the block reward for the 3rd, 4th and 5th year is 2 million TAO annually; and the block reward for the 6th, 7th and 8th year is 1 million TAO annually. 
 Subsequently, the block reward will be halted, or activated at a number less than or equal to 1 million TAO annually.
 
 
