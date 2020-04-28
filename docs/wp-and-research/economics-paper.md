@@ -227,7 +227,7 @@ Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.0$ TAO
    
 -   For Voter with 1k voted = 336 * 0.01153 = 3.87 TAO
    
--   MN staking reward with D = 100k deposited: 336 * 3.87 = 1300 TAO
+-   MN staking reward with D = 100k deposited: 336 * 1.153 = 387 TAO
 
 #### Reward per year: 
 
