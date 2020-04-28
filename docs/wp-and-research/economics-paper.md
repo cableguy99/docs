@@ -207,19 +207,19 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 5$ TAO
 
 ### Scenario 2: 100 Masternodes, 3 million token voting, a total of 8 million token locked.
 
-N = 100, X = 250, $S_1 = S_2 = .. = S_{100} = 8 000 000 / 100 = 80k$ TAO
+N = 100, X = 300, $S_1 = S_2 = .. = S_{100} = 8 000 000 / 100 = 80k$ TAO
 
 $C_1 = C_2 = .. = C_{100}$
 
-Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 2.5$ TAO
+Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.0$ TAO
 
 #### Reward per epoch:
     
--   MN infrastructure reward = 1 * 2.5 = 2.5 TAO
+-   MN infrastructure reward = 1 * 3.0 = 3.0 TAO
 
--   For Voter with 1k voted = (0.5 * 2.5 * 1000) / 80k = 0.015625
+-   For Voter with 1k voted = (0.5 * 3.0 * 1000) / 80k = 0.01875
 
--   MN staking reward with D = 100k deposited: 100 * 0.015625 = 1.5625 TAO
+-   MN staking reward with D = 100k deposited: 100 * 0.01875 = 1.875 TAO
 
 #### Reward per week: 
    
