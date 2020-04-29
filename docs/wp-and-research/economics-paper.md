@@ -173,7 +173,7 @@ Furthermore, the reward for Voters with 1k voted TAO is equal regardless of whic
 
 ### Scenario 1: 50 Masternodes, 2.5 million token voting, a total of 7.5 million token locked.
 
-N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 7 500 000 / 50 = 150k$ TAO
+N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 7,500 000 / 50 = 150k$ TAO
 
 $C_1 = C_2 = .. = C_{50}$
 
@@ -189,7 +189,7 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.2$ TAO
 
 #### Reward per week: 
    
--   MN infrastructure reward = 336 * 7.2 = 2419.2 TAO
+-   MN infrastructure reward = 336 * 7.2 = 2,419.2 TAO
    
 -   For Voter with 1k voted = 336 * 0.024 = 8.064 TAO
    
@@ -197,49 +197,49 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.2$ TAO
 
 #### Reward per year: 
    
--   MN infrastructure reward = 17520 * 7.2 = 126144 TAO
+-   MN infrastructure reward = 17,520 * 7.2 = 126,144 TAO
 
--   For Voter with 1k voted = 17520 * 0.024 = 420.48 TAO
+-   For Voter with 1k voted = 17,520 * 0.024 = 420.48 TAO
 
--   MN staking reward with 100k deposited: 17520 * 2.4 = 42048 TAO
+-   MN staking reward with 100k deposited: 17,520 * 2.4 = 42,048 TAO
 
--   Total reward per MN with D = 100k deposited: 126144 + 42048 = 168192 TAO
+-   Total reward per MN with D = 100k deposited: 126,144 + 42,048 = 168,192 TAO
 
-### Scenario 2: 100 Masternodes, 3 million token voting, a total of 13 million token locked.
+### Scenario 2: 100 Masternodes, 3 million tokens voting, a total of 13 millions token locked.
 
-N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 13 000 000 / 100 = 130k$ TAO
+N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 13,000 000 / 100 = 130k$ TAO
 
 $C_1 = C_2 = .. = C_{100}$
 
-Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.0$ TAO
+Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.6 TAO
 
 #### Reward per epoch:
     
--   MN infrastructure reward = 1 * 3.0 = 3.0 TAO
+-   MN infrastructure reward = 1 * 3.6 = 3.6 TAO
 
--   For Voter with 1k voted = (0.5 * 3.0 * 1000) / 130k = 0.01153
+-   For Voter with 1k voted = (0.5 * 3.6 * 1000) / 130k = 0.01384
 
--   MN staking reward with D = 100k deposited: 100 * 0.01153 = 1.153 TAO
+-   MN staking reward with D = 100k deposited: 100 * 0.01384 = 1.384 TAO
 
 #### Reward per week: 
    
--   MN infrastructure reward = 336 * 3 = 1008 TAO
+-   MN infrastructure reward = 336 * 3.6 = 1,209.6 TAO
    
--   For Voter with 1k voted = 336 * 0.01153 = 3.87 TAO
+-   For Voter with 1k voted = 336 * 0.01384 = 4.65 TAO
    
--   MN staking reward with D = 100k deposited: 336 * 1.153 = 387 TAO
+-   MN staking reward with D = 100k deposited: 336 * 1.384 = 465.024 TAO
 
 #### Reward per year: 
 
--   MN infrastructure reward = 52 416 * 1 = 52 416 TAO
+-   MN infrastructure reward = 17,520 * 3.6 = 63072 TAO
 
--   For Voter with 1k voted = 17520 * 0.01153 = 202 TAO
+-   For Voter with 1k voted = 17,520 * 0.01384 = 242.47 TAO
 
--   MN staking reward with D = 100k deposited: 17520 * 0.78125 = 13687.5 TAO
+-   MN staking reward with D = 100k deposited: 17,520 * 1.384 = 24,247.68 TAO
 
--   Total reward per MN with D = 50k deposited: 17 520 + 13 687.5 = 31208 TAO
+-   Total reward per MN with D = 100k deposited: 63,072 + 24,247.68 = 87,319.68 TAO
 
-### Scenario 3: 150 Masternodes, 12.5 million token voting, a total of 20 million token locked.
+### Scenario 3: 150 Masternodes, 12.5 million tokens voting, a total of 20 million tokens locked.
 
 N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 20 000 000 / 150 = 133 333$ TAO
 
