@@ -171,7 +171,7 @@ Note that, for simplification of illustration:
 With these assumptions, all masternodes receive the same divided reward (R) and the same infrastructure reward. 
 Furthermore, the reward for Voters with 1k voted TAO is equal regardless of which the amount is voted for.
 
-### Scenario 1: 50 Masternodes, 2.5 million token voting, a total of 7.5 million token locked.
+### Scenario 1: 50 Masternodes, 2.5 million tokens voting, a total of 7.5 million tokens locked.
 
 N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 7,500,000 / 50 = 150k$ TAO
 
