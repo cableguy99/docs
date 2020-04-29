@@ -177,11 +177,11 @@ N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 7 500 000 / 50 = 150k$ TAO
 
 $C_1 = C_2 = .. = C_{50}$
 
-Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 5$ TAO
+Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.2$ TAO
 
 #### Reward per epoch:
 
--   MN infrastructure reward = 1 * 5 = 5 TAO
+-   MN infrastructure reward = 1 * 7.2 = 7.2 TAO
 
 -   For Voter with 1k voted = (0.5 * 5 * 1000) / 150k = 0.0166 TAO
 
