@@ -225,23 +225,23 @@ Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.6 TAO
    
 -   MN infrastructure reward = 336 * 3.6 = 1,209.6 TAO
    
--   For Voter with 1k voted = 336 * 0.01384 = 4.65 TAO
+-   For Voter with 1k voted = 336 * 0.01384 = 4.65024 TAO
    
 -   MN staking reward with D = 100k deposited: 336 * 1.384 = 465.024 TAO
 
 #### Reward per year: 
 
--   MN infrastructure reward = 17,520 * 3.6 = 63072 TAO
+-   MN infrastructure reward = 17,520 * 3.6 = 63,072 TAO
 
--   For Voter with 1k voted = 17,520 * 0.01384 = 242.47 TAO
+-   For Voter with 1k voted = 17,520 * 0.01384 = 242.4768 TAO
 
 -   MN staking reward with D = 100k deposited: 17,520 * 1.384 = 24,247.68 TAO
 
 -   Total reward per MN with D = 100k deposited: 63,072 + 24,247.68 = 87,319.68 TAO
 
-### Scenario 3: 150 Masternodes, 12.5 million tokens voting, a total of 20 million tokens locked.
+### Scenario 3: 150 Masternodes, 12.5 million tokens voting, a total of 27.5 million tokens locked.
 
-N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 20 000 000 / 150 = 133 333$ TAO
+N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 27,500,000 / 150 = 183,333$ TAO
 
 $C_1 = C_2 = .. = C_{150}$
 
