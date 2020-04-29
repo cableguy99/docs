@@ -205,7 +205,7 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.2$ TAO
 
 -   Total reward per MN with D = 100k deposited: 126,144 + 42,048 = 168,192 TAO
 
-### Scenario 2: 100 Masternodes, 3 million tokens voting, a total of 13 millions token locked.
+### Scenario 2: 100 Masternodes, 3 million tokens voting, a total of 13 million tokens locked.
 
 N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 13,000 000 / 100 = 130k$ TAO
 
