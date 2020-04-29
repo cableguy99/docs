@@ -173,7 +173,7 @@ Furthermore, the reward for Voters with 1k voted TAO is equal regardless of whic
 
 ### Scenario 1: 50 Masternodes, 2.5 million token voting, a total of 7.5 million token locked.
 
-N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 7,500 000 / 50 = 150k$ TAO
+N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 7,500,000 / 50 = 150k$ TAO
 
 $C_1 = C_2 = .. = C_{50}$
 
