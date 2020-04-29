@@ -173,7 +173,7 @@ Furthermore, the reward for Voters with 1k voted TAO is equal regardless of whic
 
 ### Scenario 1: 50 Masternodes, 2.5 million token voting, a total of 7.5 million token locked.
 
-N = 50, X = 250, $S_1 = S_2 = .. = S_{50} = 7 500 000 / 50 = 150k$ TAO
+N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 7 500 000 / 50 = 150k$ TAO
 
 $C_1 = C_2 = .. = C_{50}$
 
@@ -207,7 +207,7 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 5$ TAO
 
 ### Scenario 2: 100 Masternodes, 3 million token voting, a total of 13 million token locked.
 
-N = 100, X = 300, $S_1 = S_2 = .. = S_{100} = 13 000 000 / 100 = 130k$ TAO
+N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 13 000 000 / 100 = 130k$ TAO
 
 $C_1 = C_2 = .. = C_{100}$
 
@@ -241,7 +241,7 @@ Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.0$ TAO
 
 ### Scenario 3: 150 Masternodes, 12.5 million token voting, a total of 20 million token locked.
 
-N = 150, X = 250, $S_1 = S_2 = .. = S_{150} = 20 000 000 / 150 = 133 333$ TAO
+N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 20 000 000 / 150 = 133 333$ TAO
 
 $C_1 = C_2 = .. = C_{150}$
 
