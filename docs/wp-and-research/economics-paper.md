@@ -259,7 +259,7 @@ Therefore, $R_1 = R_2 = .. = R_{150} = R = X/150 = 2.4$ TAO
 
 -   MN infrastructure reward = 336 * 2.4 = 806.4 TAO
 
--   For Voter with 1k voted = 336 * 0.00655 = 2.2 TAO
+-   For Voter with 1k voted = 336 * 0.00655 = 2.2008 TAO
    
 -   MN staking reward with D = 100k deposited: 336 * 0.655 = 220.08 TAO
 
