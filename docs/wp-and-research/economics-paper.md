@@ -207,7 +207,7 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.2$ TAO
 
 ### Scenario 2: 100 Masternodes, 3 million tokens voting, a total of 13 million tokens locked.
 
-N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 13,000 000 / 100 = 130k$ TAO
+N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 13,000,000 / 100 = 130k$ TAO
 
 $C_1 = C_2 = .. = C_{100}$
 
